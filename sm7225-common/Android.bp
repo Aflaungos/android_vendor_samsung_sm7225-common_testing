@@ -9233,25 +9233,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhdmipassthru_vendor",
-	stem: "libhdmipassthru",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libhdmipassthru.so"],
-			shared_libs: ["libaudioparsers", "libaudioroute", "libaudioutils", "libcutils", "libexpat", "liblog", "libtinyalsa", "libtinycompress", "libsecaudioinfo", "libaudio_soundtrigger", "libsamsungVoipResampler", "librecordalive", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libhfp_vendor",
 	stem: "libhfp",
 	owner: "samsung",
