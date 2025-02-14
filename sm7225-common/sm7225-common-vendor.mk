@@ -172,6 +172,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/wlan/qca_cld/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/bdwlan.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/wlan/qca_cld/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/regdb.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/firmware/wlanmdsp.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/wlanmdsp.mbn \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/libarcsoft_picportrait_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_picportrait_video.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/libarcsoft_picportrait_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_picportrait_video.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_super_night_raw.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/libfocuspeaking_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfocuspeaking_interface.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/libfocuspeaking_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfocuspeaking_interface.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_device_mode_skel.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/libsuper_night_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsuper_night_interface.so \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib64/libsuper_night_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsuper_night_interface.so \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5kjn1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.0_lsi_s5kjn1.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.sensormodule.13_sony_imx355_front_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.13_sony_imx355_front_full.bin \
@@ -314,8 +326,6 @@ PRODUCT_PACKAGES += \
     libHDRVerifier_v1.camera.samsung \
     libarcsoft_multi_frame_video_hdr \
     libarcsoft_object_tracking \
-    libarcsoft_picportrait_video \
-    libarcsoft_super_night_raw \
     libaudcal \
     libaudioconfigstore \
     libaudioparsers \
@@ -370,7 +380,6 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libfloatingfeature \
     libfocuspeaking \
-    libfocuspeaking_interface \
     libgarden \
     libgcs-calwrapper \
     libgcs-ipc \
@@ -515,7 +524,6 @@ PRODUCT_PACKAGES += \
     libssc \
     libssc_default_listener \
     libssd \
-    libsuper_night_interface \
     libswldc_capture_core.camera.samsung \
     libswregistrationalgo \
     libsynaFpSensorTestNwd \
@@ -538,7 +546,6 @@ PRODUCT_PACKAGES += \
     libvideobeauty_interface \
     libxml \
     libclearkeycasplugin \
-    libsns_device_mode_skel \
     libsns_low_lat_stream_skel \
     sensors.grip \
     sensors.ssc \

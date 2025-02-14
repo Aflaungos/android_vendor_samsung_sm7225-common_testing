@@ -2736,6 +2736,1101 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libBeauty_v4.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libBeauty_v4.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libdl",
+                "libHprFace_GAE_api.camera.samsung",
+                "libcutils",
+                "libbeautyshot.arcsoft",
+                "libc++",
+                "liblog",
+                "libc",
+                "libm",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libBeauty_v4.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libHprFace_GAE_api.camera.samsung",
+                "libcutils",
+                "libbeautyshot.arcsoft",
+                "libc++",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libDLInterface.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libDLInterface.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libsnap_vndk",
+                "libc++",
+                "libz",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libDualCamBokehCapture.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libDualCamBokehCapture.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libhigh_dynamic_range_bokeh",
+                "libmpbase",
+                "libdualcam_refocus_image",
+                "libBeauty_v4.camera.samsung",
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libDualCamBokehCapture.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "libdualcam_refocus_image",
+                "libBeauty_v4.camera.samsung",
+                "liblog",
+                "libcutils",
+                "libhigh_dynamic_range_bokeh",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libFacePreProcessing.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libFacePreProcessing.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libdl",
+                "libc++",
+                "liblog",
+                "libc",
+                "libm",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libFacePreProcessing.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libFace_Landmark_API.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libFace_Landmark_API.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libHandGesture.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libHandGesture.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libhandgesture.arcsoft",
+                "libm",
+                "liblog",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhandgesture.arcsoft",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libhandgesture.arcsoft.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libhdmipassthru_vendor",
+	stem: "libhdmipassthru",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libhdmipassthru.so"],
+			shared_libs: ["libaudioparsers", "libaudioroute", "libaudioutils", "libcutils", "libexpat", "liblog", "libtinyalsa", "libtinycompress", "libsecaudioinfo", "libaudio_soundtrigger", "libsamsungVoipResampler", "librecordalive", "libaudio_log_utils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhigh_dynamic_range_bokeh",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libhigh_dynamic_range_bokeh.so",
+            ],
+            shared_libs: [
+                "libdl",
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libhigh_dynamic_range_bokeh.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhypermotion_interface",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libhypermotion_interface.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libui",
+                "liblog",
+                "libcutils",
+                "libuniplugin",
+                "libhypermotion_core",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libimage_enhancement.arcsoft",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libimage_enhancement.arcsoft.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libimagecodec_native.quram",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libimagecodec_native.quram.so",
+            ],
+            shared_libs: [
+                "libm",
+                "liblog",
+                "libz",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjpegQtable_interface",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libjpegQtable_interface.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libsavscmn",
+                "libpadm",
+                "libuniplugin",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjpegencoder_sw.unifunc",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libjpegencoder_sw.unifunc.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libcamera_metadata",
+                "libimgproc_sw.unifunc@common",
+                "unihal_cutils",
+                "unihal_android",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liblivefocus_capture_engine",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/liblivefocus_capture_engine.so",
+            ],
+            shared_libs: [
+                "libBeauty_v4.camera.samsung",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liblivefocus_preview_engine",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/liblivefocus_preview_engine.so",
+            ],
+            shared_libs: [
+                "libBeauty_v4.camera.samsung",
+                "libFace_Landmark_API.camera.samsung",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libnlnetmgr",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libnlnetmgr.so",
+            ],
+            shared_libs: [
+                "libdsutils",
+                "libconfigdb",
+                "libdiag",
+                "libcutils",
+                "liblog",
+                "libnetmgr",
+                "libnetmgr_common",
+                "libnetmgrxfrmutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libpadm",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libpadm.so",
+            ],
+            shared_libs: [
+                "libsavscmn",
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libscaler_hw.unifunc",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libscaler_hw.unifunc.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libhardware",
+                "liblog",
+                "libutils",
+                "libui",
+                "unihal_cutils",
+                "unihal_android",
+                "libcdsprpc",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsegmentationeffect.uniplugin@1.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsegmentationeffect.uniplugin@1.0.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libsrib_humanaware_engine.camera.samsung",
+                "libsrib_CNNInterface.camera.samsung",
+                "libHumanSegVideoModel_Vendor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsmartfocus_interface",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libsmartfocus_interface.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libsmartfocusengine",
+                "libuniplugin",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsmartfocus_interface.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libsmartfocusengine",
+                "libuniplugin",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libswldc_capture_core.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libswldc_capture_core.camera.samsung.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libOpenCL",
+                "libion",
+                "libm",
+                "libc",
+                "libc++",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libswldc_capture_core.camera.samsung.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libOpenCL",
+                "libion",
+                "libm",
+                "libc",
+                "libc++",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvideobeauty.arcsoft",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libvideobeauty.arcsoft.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvideobeauty.uniplugin@1.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libvideobeauty.uniplugin@1.0.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libvideobeauty.arcsoft",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvideobeauty_interface",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libvideobeauty_interface.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libuniplugin",
+                "libvideobeauty.arcsoft",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsocial_image_enhancement.uniplugin@1.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsocial_image_enhancement.uniplugin@1.0.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libimage_enhancement.arcsoft",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liblivefocus_preview_interface",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/liblivefocus_preview_interface.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "liblivefocus_preview_engine",
+                "libuniplugin",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libHprFace_GAE_api.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libHprFace_GAE_api.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libHpr_RecGAE_cvFeature_v1.0.camera.samsung",
+                "libc++",
+                "liblog",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libHpr_RecGAE_cvFeature_v1.0.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libLocalTM_capture_core.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libLocalTM_capture_core.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libdmabufheap",
+                "libion",
+                "liblog",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libLocalTM_wrapper.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libLocalTM_wrapper.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libLocalTM_capture_core.camera.samsung",
+                "libc++",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libSEF.quram",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libSEF.quram.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libSEF.quram.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbeautyshot.arcsoft",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libbeautyshot.arcsoft.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libexifa.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libexifa.camera.samsung.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfocuspeaking",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libfocuspeaking.so",
+            ],
+            shared_libs: [
+                "libOpenCv.camera.samsung",
+                "libc++",
+                "liblog",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libformatConverter.unifunc",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libformatConverter.unifunc.so",
+            ],
+            shared_libs: [
+                "libhardware",
+                "libcutils",
+                "libutils",
+                "libui",
+                "liblog",
+                "unihal_cutils",
+                "unihal_android",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhand_interaction.uniplugin@1.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libhand_interaction.uniplugin@1.0.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libHandGesture.camera.samsung",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libface_landmark.arcsoft",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libface_landmark.arcsoft.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libcamxswprocessalgo",
 	owner: "samsung",
 	strip: {
