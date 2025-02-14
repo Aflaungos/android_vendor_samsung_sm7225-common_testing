@@ -8537,6 +8537,28 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    	name: "libcamxncs",
+    	owner: "samsung",
+    	strip: {
+        	none: true,
+    	},
+    	target: {
+		android_arm: {
+            		srcs: ["proprietary/vendor/lib/libcamxncs.so"],
+            		shared_libs: ["libutils", "libprotobuf-cpp-full-3.9.1-vendorcompat", "libsensorslog", "libqmi_common_so", "libqmi_cci", "libqmi_encdec", "libsnsapi", "libhardware", "libcutils", "libofflinelog", "libz", "liblog", "libc++", "libc", "libm", "libdl", ],
+        	},
+        	android_arm64: {
+            		srcs: ["proprietary/vendor/lib64/libcamxncs.so"],
+            		shared_libs: ["libutils", "libprotobuf-cpp-full-3.9.1-vendorcompat", "libsensorslog", "libqmi_common_so", "libqmi_cci", "libqmi_encdec", "libsnsapi", "libhardware", "libcutils", "libofflinelog", "libz", "liblog", "libc++", "libc", "libm", "libdl", ],
+        	},
+    	},
+    	compile_multilib: "both",
+    	check_elf_files: false,
+    	prefer: true,
+    	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "vendor.qti.memory.pasrmanager@1.1",
 	owner: "samsung",
 	strip: {

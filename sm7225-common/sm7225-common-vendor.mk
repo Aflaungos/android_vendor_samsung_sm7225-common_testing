@@ -552,6 +552,7 @@ PRODUCT_PACKAGES += \
     libeffectproxy \
     libldnhncr \
     libmysound \
+    libcamxncs \
     libmyspace \
     libplaybackrecorder \
     libqcbassboost \
