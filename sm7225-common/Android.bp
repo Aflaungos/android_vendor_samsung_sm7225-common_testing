@@ -4342,6 +4342,27 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libOpenCv.camera.samsung",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libOpenCv.camera.samsung.so"],
+			shared_libs: ["libc", "libm", "libdl", "liblog", "libz", "libc++", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libOpenCv.camera.samsung.so"],
+			shared_libs: ["libc", "libm", "libdl", "liblog", "libz", "libc++", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libops",
 	owner: "samsung",
 	strip: {

@@ -456,6 +456,7 @@ PRODUCT_PACKAGES += \
     libqmi_legacy \
     libqmiservices \
     libqrtr \
+    librmsclib1 \
     libqsap_sdk \
     libqseed3 \
     libqsocket \
