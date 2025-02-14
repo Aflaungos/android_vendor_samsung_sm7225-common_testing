@@ -942,7 +942,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/libdepthmapwrapper.so"],
 			shared_libs: [ ],
 		},
