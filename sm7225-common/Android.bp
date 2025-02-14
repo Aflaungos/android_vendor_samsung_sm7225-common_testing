@@ -6390,6 +6390,28 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libwebrtc_audio_preprocessing",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwebrtc_audio_preprocessing.so"],
+			shared_libs: [ ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libwebrtc_audio_preprocessing.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libaudiosaplus_sec",
 	owner: "samsung",
 	strip: {
@@ -6564,6 +6586,27 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsecaudioinfo.so"],
 			shared_libs: ["libcutils", "libutils", "libfloatingfeature", "libsecnativefeature", "libbinder", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsecaudiocoreutils",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libsecaudiocoreutils.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libsecaudiocoreutils.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",

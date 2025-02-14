@@ -301,6 +301,7 @@ PRODUCT_PACKAGES += \
     libSceneDetector_v1.camera.samsung \
     libSecureUILib \
     libStDrvInt \
+    libwebrtc_audio_preprocessing \
     libVkLayer_q3dtools \
     libacdb-fts \
     libacdbloader \
