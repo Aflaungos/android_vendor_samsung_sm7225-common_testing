@@ -7,6 +7,8 @@ soong_namespace {
 		"device/samsung/sm7225-common",
 		"hardware/qcom-caf/sm8250",
 		"hardware/qcom-caf/wlan",
+                "hardware/qcom-caf/common",
+                "hardware/qcom-caf/common/libqti-perfd-client",
 		"hardware/samsung",
 		"vendor/qcom/opensource/dataservices",
 		"vendor/qcom/opensource/display",
@@ -6250,28 +6252,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libqti-perfd-client",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libqti-perfd-client.so"],
-			shared_libs: ["libcutils", "libutils", "liblog", "vendor.qti.hardware.perf@2.2", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libqti-perfd-client.so"],
-			shared_libs: ["libcutils", "libutils", "liblog", "vendor.qti.hardware.perf@2.2", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libqti-util",
 	owner: "samsung",
 	strip: {
@@ -10145,24 +10125,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libhypervintf.so"],
 			shared_libs: ["libcutils", "liblog", "libutils", "libbinder", "libbinder_ndk", "libhidlbase", "vendor.samsung.hardware.hyper-V2-ndk_platform", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libipanat",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libipanat.so"],
-			shared_libs: ["libcutils", "libbase", "libutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

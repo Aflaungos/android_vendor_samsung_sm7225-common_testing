@@ -474,7 +474,6 @@ PRODUCT_PACKAGES += \
     libqsocket \
     libqti-iopd-client \
     libqti-iopd \
-    libqti-perfd-client \
     libqti-perfd \
     libqti-util \
     libqti_vndfwk_detect \
@@ -668,7 +667,6 @@ PRODUCT_PACKAGES += \
     libhexagon_nn_stub \
     libhta \
     libhypervintf \
-    libipanat \
     libkeymaster_helper \
     liblearningmodule \
     libloadalgo_stub \
