@@ -477,6 +477,7 @@ PRODUCT_PACKAGES += \
     libscveCommon_stub \
     libscveObjectSegmentation \
     libscveObjectSegmentation_stub \
+    lib_SoundBooster_ver1050 \
     libscveObjectTracker \
     libscveObjectTracker_stub \
     libsdedrm \
