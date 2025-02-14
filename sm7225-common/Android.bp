@@ -10192,4 +10192,3 @@ sh_binary {
 	filename: "xtra-daemon",
 	soc_specific: true,
 }
-
