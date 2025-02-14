@@ -6642,22 +6642,16 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libHDRVerifier_v1.camera.samsung.so",
-            ],
-            shared_libs: [
-                "libOpenCv.camera.samsung",
-                "libc++",
-                "libz",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
+	    android_arm: {
+                	srcs: ["proprietary/vendor/lib/libHDRVerifier_v1.camera.samsung.so"],
+                	shared_libs: ["libOpenCv.camera.samsung", "libc++", "libz", "liblog", "libc", "libm", "libdl", ],
+            },
+            android_arm64: {
+                	srcs: ["proprietary/vendor/lib64/libHDRVerifier_v1.camera.samsung.so"],
+                	shared_libs: ["libOpenCv.camera.samsung", "libc++", "libz", "liblog", "libc", "libm", "libdl", ],
+            },
     },
-    compile_multilib: "64",
+    compile_multilib: "both",
     prefer: true,
     soc_specific: true,
 }

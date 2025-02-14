@@ -308,8 +308,10 @@ PRODUCT_PACKAGES += \
     libacdbrtac \
     libadiertac \
     libadreno_utils \
+    libDeviceInfoProvider \
     libadsp_default_listener \
     libadsprpc \
+    libHDRVerifier_v1.camera.samsung \
     libarcsoft_multi_frame_video_hdr \
     libarcsoft_object_tracking \
     libarcsoft_picportrait_video \
