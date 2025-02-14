@@ -6573,6 +6573,72 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "lib_SoundAlive_3DPosition_ver202",
+	owner: "samsung",
+	strip: {
+        none: true,
+	},
+	target: {
+		android_arm: {
+            	    	srcs: ["proprietary/vendor/lib/lib_SoundAlive_3DPosition_ver202.so"],
+            	    	shared_libs: ["libc", "libm", "libdl", "liblog", ],
+            	},
+            	android_arm64: {
+            	    	srcs: ["proprietary/vendor/lib64/lib_SoundAlive_3DPosition_ver202.so"],
+            	    	shared_libs: ["libc", "libm", "libdl", "liblog", ],
+            	},
+    	},
+    	compile_multilib: "both",
+	check_elf_files: false,
+    	prefer: true,
+    	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    	name: "lib_SoundAlive_play_plus_ver400",
+    	owner: "samsung",
+    	strip: {
+        none: true,
+    	},
+    	target: {
+        	android_arm: {
+            		srcs: ["proprietary/vendor/lib/lib_SoundAlive_play_plus_ver400.so"],
+            		shared_libs: ["libc", "libm", "libdl", ],
+        	},
+		android_arm64: {
+            		srcs: ["proprietary/vendor/lib64/lib_SoundAlive_play_plus_ver400.so"],
+            		shared_libs: ["libc", "libm", "libdl", "liblog", ],
+        	},
+    	},
+    	compile_multilib: "both",
+    	check_elf_files: false,
+    	prefer: true,
+    	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    	name: "lib_SoundAlive_AlbumArt_ver105",
+    	owner: "samsung",
+    	strip: {
+        none: true,
+    	},
+    	target: {
+        	android_arm: {
+            		srcs: ["proprietary/vendor/lib/lib_SoundAlive_AlbumArt_ver105.so"],
+            		shared_libs: ["libc", "libm", "libdl", "liblog", ],
+        	},
+		android_arm64: {
+            		srcs: ["proprietary/vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so"],
+            		shared_libs: ["libc", "libm", "libdl", "liblog", ],
+        	},
+    	},
+    	compile_multilib: "both",
+	check_elf_files: false,
+    	prefer: true,
+    	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libsecaudioinfo",
 	owner: "samsung",
 	strip: {
@@ -6836,6 +6902,72 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	check_elf_files: false,
 	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    	name: "libprofileparamstorage",
+    	owner: "samsung",
+    	strip: {
+        none: true,
+    	},
+    	target: {
+        	android_arm: {
+            		srcs: ["proprietary/vendor/lib/libprofileparamstorage.so"],
+            		shared_libs: ["libxml2", "libcutils", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+        	},
+		android_arm64: {
+            		srcs: ["proprietary/vendor/lib64/libprofileparamstorage.so"],
+            		shared_libs: ["libxml2", "libcutils", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+        	},
+    	},
+    	compile_multilib: "both",
+	check_elf_files: false,
+    	prefer: true,
+    	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    	name: "libspatializerparamstorage",
+    	owner: "samsung",
+    	strip: {
+        none: true,
+    	},
+    	target: {
+        	android_arm: {
+            		srcs: ["proprietary/vendor/lib/libspatializerparamstorage.so"],
+            		shared_libs: ["libcutils", "liblog", "libutils", "libprofileparamstorage", "libc++", "libc", "libm", "libdl", ],
+        	},
+		android_arm64: {
+            		srcs: ["proprietary/vendor/lib64/libspatializerparamstorage.so"],
+            		shared_libs: ["libcutils", "liblog", "libutils", "libprofileparamstorage", "libc++", "libc", "libm", "libdl", ],
+        	},
+    	},
+    	compile_multilib: "both",
+	check_elf_files: false,
+    	prefer: true,
+    	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "spatializer-aidl-V1-cpp",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/spatializer-aidl-V1-cpp.so"],
+			shared_libs: ["libbinder", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/spatializer-aidl-V1-cpp.so"],
+			shared_libs: ["libbinder", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }

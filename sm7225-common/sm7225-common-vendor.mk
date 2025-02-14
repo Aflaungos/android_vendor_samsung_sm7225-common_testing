@@ -482,12 +482,18 @@ PRODUCT_PACKAGES += \
     libsdedrm \
     libsdm-color \
     libsdm-colormgr-algo \
+    libprofileparamstorage \
+    spatializer-aidl-V1-cpp \
     libsdm-diag \
     libsdm-disp-vndapis \
     libsdsprpc \
     libsec2qc_conversion \
+    libspatializerparamstorage \
     libsecaudiocoreutils \
     libsecaudioinfo \
+    lib_SoundAlive_3DPosition_ver202 \
+    lib_SoundAlive_play_plus_ver400 \
+    lib_SoundAlive_AlbumArt_ver105 \
     libsecnativefeature \
     libsecureui \
     libsecureui_svcsock \
