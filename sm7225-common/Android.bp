@@ -15,16 +15,16 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
 	name: "android.hardware.camera.provider@2.4-legacy",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/android.hardware.camera.provider@2.4-legacy.so"],
 			shared_libs: [ ],
 		},
@@ -36,16 +36,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "btaudio_offload_if",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/btaudio_offload_if.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/btaudio_offload_if.so"],
 			shared_libs: [ ],
 		},
@@ -57,16 +57,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.eeprom.sec2qcconversion",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/com.qti.eeprom.sec2qcconversion.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/com.qti.eeprom.sec2qcconversion.so"],
 			shared_libs: [ ],
 		},
@@ -79,16 +79,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.sensor.gc02m1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/com.samsung.sensor.gc02m1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/com.samsung.sensor.gc02m1.so"],
 			shared_libs: [ ],
 		},
@@ -101,16 +101,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.sensor.imx355",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/com.samsung.sensor.imx355.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/com.samsung.sensor.imx355.so"],
 			shared_libs: [ ],
 		},
@@ -123,16 +123,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.sensor.imx355_front",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/com.samsung.sensor.imx355_front.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/com.samsung.sensor.imx355_front.so"],
 			shared_libs: [ ],
 		},
@@ -145,16 +145,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.sensor.s5kjn1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/com.samsung.sensor.s5kjn1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/com.samsung.sensor.s5kjn1.so"],
 			shared_libs: [ ],
 		},
@@ -167,16 +167,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.camx.chiiqutils",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so"],
 			shared_libs: [ ],
 		},
@@ -189,16 +189,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.eisv2",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.eisv2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.eisv2.so"],
 			shared_libs: [ ],
 		},
@@ -211,16 +211,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.eisv3",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.eisv3.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.eisv3.so"],
 			shared_libs: [ ],
 		},
@@ -233,16 +233,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.hvx.addconstant",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.hvx.addconstant.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so"],
 			shared_libs: [ ],
 		},
@@ -255,16 +255,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.hvx.binning",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.hvx.binning.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so"],
 			shared_libs: [ ],
 		},
@@ -277,16 +277,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.node.depth",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.depth.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.depth.so"],
 			shared_libs: [ ],
 		},
@@ -299,16 +299,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.node.dummyrtb",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.dummyrtb.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so"],
 			shared_libs: [ ],
 		},
@@ -321,16 +321,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.node.dummysat",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.dummysat.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so"],
 			shared_libs: [ ],
 		},
@@ -343,16 +343,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.node.eisv2",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.eisv2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so"],
 			shared_libs: [ ],
 		},
@@ -365,16 +365,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.node.eisv3",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.eisv3.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so"],
 			shared_libs: [ ],
 		},
@@ -387,16 +387,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.node.fcv",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.fcv.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so"],
 			shared_libs: [ ],
 		},
@@ -409,16 +409,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.node.gpu",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.gpu.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so"],
 			shared_libs: [ ],
 		},
@@ -431,16 +431,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.node.memcpy",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.memcpy.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so"],
 			shared_libs: [ ],
 		},
@@ -453,16 +453,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.node.stich",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.stich.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.stich.so"],
 			shared_libs: [ ],
 		},
@@ -475,16 +475,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.node.swregistration",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.swregistration.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so"],
 			shared_libs: [ ],
 		},
@@ -497,16 +497,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.afd",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.afd.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so"],
 			shared_libs: [ ],
 		},
@@ -519,16 +519,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.asd",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.asd.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so"],
 			shared_libs: [ ],
 		},
@@ -541,16 +541,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.hafoverride",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.hafoverride.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.hafoverride.so"],
 			shared_libs: [ ],
 		},
@@ -563,16 +563,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.pdlibsony",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.pdlibsony.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so"],
 			shared_libs: [ ],
 		},
@@ -585,16 +585,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.pdlibwrapper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so"],
 			shared_libs: [ ],
 		},
@@ -607,16 +607,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.tracker",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.tracker.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.tracker.so"],
 			shared_libs: [ ],
 		},
@@ -629,16 +629,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.node.capture_bokeh",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.capture_bokeh.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.capture_bokeh.so"],
 			shared_libs: [ ],
 		},
@@ -651,16 +651,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.node.capture_fusion",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.capture_fusion.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.capture_fusion.so"],
 			shared_libs: [ ],
 		},
@@ -673,16 +673,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.node.multi_frame_video_hdr",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.multi_frame_video_hdr.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.multi_frame_video_hdr.so"],
 			shared_libs: [ ],
 		},
@@ -695,16 +695,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.node.realtimebokeh",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.realtimebokeh.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.realtimebokeh.so"],
 			shared_libs: [ ],
 		},
@@ -717,16 +717,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.node.remosaic",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.remosaic.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.remosaic.so"],
 			shared_libs: [ ],
 		},
@@ -739,16 +739,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.node.smooth_transition",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.smooth_transition.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.smooth_transition.so"],
 			shared_libs: [ ],
 		},
@@ -761,16 +761,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.node.uniplugin_capture",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_capture.so"],
 			shared_libs: [ ],
 		},
@@ -783,16 +783,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.node.uniplugin_preview",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_preview.so"],
 			shared_libs: [ ],
 		},
@@ -805,16 +805,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.node.uniplugin_recording",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_recording.so"],
 			shared_libs: [ ],
 		},
@@ -827,16 +827,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.samsung.node.uniplugin_vdis",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_vdis.so"],
 			shared_libs: [ ],
 		},
@@ -849,16 +849,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.ss.stats.aec",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.ss.stats.aec.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.ss.stats.aec.so"],
 			shared_libs: [ ],
 		},
@@ -871,16 +871,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.ss.stats.af",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.ss.stats.af.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.ss.stats.af.so"],
 			shared_libs: [ ],
 		},
@@ -893,16 +893,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.ss.stats.awb",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.ss.stats.awb.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.ss.stats.awb.so"],
 			shared_libs: [ ],
 		},
@@ -915,16 +915,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.ss.stats.pdlib",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib/camera/components/com.ss.stats.pdlib.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.ss.stats.pdlib.so"],
 			shared_libs: [ ],
 		},
@@ -937,16 +937,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdepthmapwrapper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib/camera/components/libdepthmapwrapper.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/libdepthmapwrapper.so"],
 			shared_libs: [ ],
 		},
@@ -959,16 +959,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.anchorsync",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.anchorsync.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.anchorsync.so"],
 			shared_libs: [ ],
 		},
@@ -980,16 +980,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.demux",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.demux.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.demux.so"],
 			shared_libs: [ ],
 		},
@@ -1001,16 +1001,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.frameselect",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.frameselect.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.frameselect.so"],
 			shared_libs: [ ],
 		},
@@ -1022,16 +1022,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.fusion",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.fusion.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.fusion.so"],
 			shared_libs: [ ],
 		},
@@ -1043,16 +1043,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.generic",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.generic.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.generic.so"],
 			shared_libs: [ ],
 		},
@@ -1064,16 +1064,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.gs",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.gs.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.gs.so"],
 			shared_libs: [ ],
 		},
@@ -1085,16 +1085,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.hdr",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.hdr.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.hdr.so"],
 			shared_libs: [ ],
 		},
@@ -1106,16 +1106,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.memcpy",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.memcpy.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.memcpy.so"],
 			shared_libs: [ ],
 		},
@@ -1127,16 +1127,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.mfsr",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.mfsr.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.mfsr.so"],
 			shared_libs: [ ],
 		},
@@ -1148,16 +1148,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.qcfa",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.qcfa.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.qcfa.so"],
 			shared_libs: [ ],
 		},
@@ -1169,16 +1169,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.rawhdr",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.rawhdr.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.rawhdr.so"],
 			shared_libs: [ ],
 		},
@@ -1190,16 +1190,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.rt",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.rt.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.rt.so"],
 			shared_libs: [ ],
 		},
@@ -1211,16 +1211,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.serializer",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.serializer.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.serializer.so"],
 			shared_libs: [ ],
 		},
@@ -1232,16 +1232,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.stub",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.stub.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.stub.so"],
 			shared_libs: [ ],
 		},
@@ -1253,16 +1253,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.feature2.swmf",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qti.feature2.swmf.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.swmf.so"],
 			shared_libs: [ ],
 		},
@@ -1274,16 +1274,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qualcomm.qti.ant@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -1295,16 +1295,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "eglSubDriverAndroid",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/egl/eglSubDriverAndroid.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/eglSubDriverAndroid.so"],
 			shared_libs: [ ],
 		},
@@ -1317,16 +1317,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libEGL_adreno",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/egl/libEGL_adreno.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/libEGL_adreno.so"],
 			shared_libs: [ ],
 		},
@@ -1339,16 +1339,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libGLESv1_CM_adreno",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so"],
 			shared_libs: [ ],
 		},
@@ -1361,16 +1361,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libGLESv2_adreno",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/egl/libGLESv2_adreno.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/libGLESv2_adreno.so"],
 			shared_libs: [ ],
 		},
@@ -1383,16 +1383,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libq3dtools_adreno",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/egl/libq3dtools_adreno.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/libq3dtools_adreno.so"],
 			shared_libs: [ ],
 		},
@@ -1405,16 +1405,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libq3dtools_esx",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/egl/libq3dtools_esx.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/libq3dtools_esx.so"],
 			shared_libs: [ ],
 		},
@@ -1427,16 +1427,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "android.hardware.bluetooth@1.0-impl-qti",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
 			shared_libs: [ ],
 		},
@@ -1449,16 +1449,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "android.hardware.gnss@2.1-impl-qti",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so"],
 			shared_libs: [ ],
 		},
@@ -1471,16 +1471,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "audio.bluetooth_qti.default",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so"],
 			shared_libs: [ ],
 		},
@@ -1493,16 +1493,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "camera.qcom",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/camera.qcom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/camera.qcom.so"],
 			shared_libs: [ ],
 		},
@@ -1515,16 +1515,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "camera.unihal.default",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/camera.unihal.default.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/camera.unihal.default.so"],
 			shared_libs: [ ],
 		},
@@ -1537,16 +1537,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.chi.override",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/com.qti.chi.override.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/com.qti.chi.override.so"],
 			shared_libs: [ ],
 		},
@@ -1559,16 +1559,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "fingerprint.default",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/fingerprint.default.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/fingerprint.default.so"],
 			shared_libs: [ ],
 		},
@@ -1581,16 +1581,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.bluetooth_audio@2.0-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1603,16 +1603,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.bluetooth_sar@1.0-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1625,16 +1625,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.capabilityconfigstore@1.0-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1647,16 +1647,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.fm@1.0-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1669,16 +1669,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.qseecom@1.0-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1691,16 +1691,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.bluetooth.a2dp@1.0-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1713,16 +1713,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.gnss@2.0-impl-sec",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so"],
 			shared_libs: [ ],
 		},
@@ -1735,16 +1735,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vulkan.adreno",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vulkan.adreno.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vulkan.adreno.so"],
 			shared_libs: [ ],
 		},
@@ -1757,16 +1757,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libC2D2",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libC2D2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libC2D2.so"],
 			shared_libs: [ ],
 		},
@@ -1778,16 +1778,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libCB",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCB.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCB.so"],
 			shared_libs: [ ],
 		},
@@ -1799,16 +1799,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libGPTEE_vendor",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libGPTEE_vendor.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libGPTEE_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -1820,16 +1820,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libGPreqcancel",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libGPreqcancel.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libGPreqcancel.so"],
 			shared_libs: [ ],
 		},
@@ -1841,16 +1841,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libGPreqcancel_svc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libGPreqcancel_svc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libGPreqcancel_svc.so"],
 			shared_libs: [ ],
 		},
@@ -1862,16 +1862,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libOpenCL",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libOpenCL.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libOpenCL.so"],
 			shared_libs: [ ],
 		},
@@ -1883,16 +1883,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libQSEEComAPI",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libQSEEComAPI.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libQSEEComAPI.so"],
 			shared_libs: [ ],
 		},
@@ -1904,16 +1904,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libSceneDetector_v1.camera.samsung",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libSceneDetector_v1.camera.samsung.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libSceneDetector_v1.camera.samsung.so"],
 			shared_libs: [ ],
 		},
@@ -1925,16 +1925,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libSecureUILib",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libSecureUILib.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libSecureUILib.so"],
 			shared_libs: [ ],
 		},
@@ -1946,16 +1946,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libStDrvInt",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libStDrvInt.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libStDrvInt.so"],
 			shared_libs: [ ],
 		},
@@ -1967,16 +1967,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libVkLayer_q3dtools",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libVkLayer_q3dtools.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libVkLayer_q3dtools.so"],
 			shared_libs: [ ],
 		},
@@ -1988,16 +1988,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libacdb-fts",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libacdb-fts.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libacdb-fts.so"],
 			shared_libs: [ ],
 		},
@@ -2009,16 +2009,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libacdbloader",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libacdbloader.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libacdbloader.so"],
 			shared_libs: [ ],
 		},
@@ -2030,16 +2030,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libacdbrtac",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libacdbrtac.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libacdbrtac.so"],
 			shared_libs: [ ],
 		},
@@ -2051,16 +2051,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libadiertac",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libadiertac.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libadiertac.so"],
 			shared_libs: [ ],
 		},
@@ -2072,16 +2072,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libadreno_utils",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libadreno_utils.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libadreno_utils.so"],
 			shared_libs: [ ],
 		},
@@ -2093,16 +2093,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libadsp_default_listener",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libadsp_default_listener.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libadsp_default_listener.so"],
 			shared_libs: [ ],
 		},
@@ -2114,16 +2114,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libadsprpc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libadsprpc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libadsprpc.so"],
 			shared_libs: [ ],
 		},
@@ -2135,16 +2135,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libarcsoft_multi_frame_video_hdr",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libarcsoft_multi_frame_video_hdr.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libarcsoft_multi_frame_video_hdr.so"],
 			shared_libs: [ ],
 		},
@@ -2156,16 +2156,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libarcsoft_object_tracking",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libarcsoft_object_tracking.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libarcsoft_object_tracking.so"],
 			shared_libs: [ ],
 		},
@@ -2177,16 +2177,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libaudcal",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaudcal.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaudcal.so"],
 			shared_libs: [ ],
 		},
@@ -2198,16 +2198,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libaudioconfigstore",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaudioconfigstore.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaudioconfigstore.so"],
 			shared_libs: [ ],
 		},
@@ -2219,16 +2219,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libbatching",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbatching.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbatching.so"],
 			shared_libs: [ ],
 		},
@@ -2240,16 +2240,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libbauthserver",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbauthserver.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbauthserver.so"],
 			shared_libs: [ ],
 		},
@@ -2261,16 +2261,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libbauthtzcommon",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbauthtzcommon.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbauthtzcommon.so"],
 			shared_libs: [ ],
 		},
@@ -2282,16 +2282,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libbitmlengine",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbitmlengine.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbitmlengine.so"],
 			shared_libs: [ ],
 		},
@@ -2303,16 +2303,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libbluetooth_audio_session_qti",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_audio_session_qti.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbluetooth_audio_session_qti.so"],
 			shared_libs: [ ],
 		},
@@ -2324,16 +2324,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libbthost_if",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbthost_if.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbthost_if.so"],
 			shared_libs: [ ],
 		},
@@ -2345,16 +2345,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libbtnv",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbtnv.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbtnv.so"],
 			shared_libs: [ ],
 		},
@@ -2366,16 +2366,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libc2d30_bltlib",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libc2d30_bltlib.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libc2d30_bltlib.so"],
 			shared_libs: [ ],
 		},
@@ -2387,16 +2387,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcacertclient",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcacertclient.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcacertclient.so"],
 			shared_libs: [ ],
 		},
@@ -2408,16 +2408,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamera2ndk_vendor",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamera2ndk_vendor.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamera2ndk_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -2429,16 +2429,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamera_nn_stub",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamera_nn_stub.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamera_nn_stub.so"],
 			shared_libs: [ ],
 		},
@@ -2450,15 +2450,15 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamerapostproc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamerapostproc.so"],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamerapostproc.so"],
 		},
 	},
@@ -2470,16 +2470,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamxexternalformatutils",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamxexternalformatutils.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxexternalformatutils.so"],
 			shared_libs: [ ],
 		},
@@ -2491,16 +2491,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamxfacialfeatures",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamxfacialfeatures.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxfacialfeatures.so"],
 			shared_libs: [ ],
 		},
@@ -2512,16 +2512,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamxfdalgo",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamxfdalgo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxfdalgo.so"],
 			shared_libs: [ ],
 		},
@@ -2533,16 +2533,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamxfdengine",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamxfdengine.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxfdengine.so"],
 			shared_libs: [ ],
 		},
@@ -2554,16 +2554,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamxifestriping",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamxifestriping.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxifestriping.so"],
 			shared_libs: [ ],
 		},
@@ -2575,16 +2575,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamximageformatutils",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamximageformatutils.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamximageformatutils.so"],
 			shared_libs: [ ],
 		},
@@ -2596,16 +2596,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamxstatscore",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamxstatscore.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxstatscore.so"],
 			shared_libs: [ ],
 		},
@@ -2617,16 +2617,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamxswprocessalgo",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamxswprocessalgo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxswprocessalgo.so"],
 			shared_libs: [ ],
 		},
@@ -2638,16 +2638,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamxtintlessalgo",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamxtintlessalgo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxtintlessalgo.so"],
 			shared_libs: [ ],
 		},
@@ -2659,16 +2659,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcdfw",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcdfw.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcdfw.so"],
 			shared_libs: [ ],
 		},
@@ -2680,16 +2680,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcdfw_remote_api",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcdfw_remote_api.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcdfw_remote_api.so"],
 			shared_libs: [ ],
 		},
@@ -2701,16 +2701,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcdsp_default_listener",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcdsp_default_listener.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcdsp_default_listener.so"],
 			shared_libs: [ ],
 		},
@@ -2722,16 +2722,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcdsprpc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcdsprpc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcdsprpc.so"],
 			shared_libs: [ ],
 		},
@@ -2743,16 +2743,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libchilog",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libchilog.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libchilog.so"],
 			shared_libs: [ ],
 		},
@@ -2764,16 +2764,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcom.qti.chinodeutils",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcom.qti.chinodeutils.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcom.qti.chinodeutils.so"],
 			shared_libs: [ ],
 		},
@@ -2785,16 +2785,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libconfigdb",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libconfigdb.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libconfigdb.so"],
 			shared_libs: [ ],
 		},
@@ -2806,16 +2806,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcpion",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcpion.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcpion.so"],
 			shared_libs: [ ],
 		},
@@ -2827,16 +2827,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcvp_common",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcvp_common.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcvp_common.so"],
 			shared_libs: [ ],
 		},
@@ -2848,16 +2848,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcvpcpuRev_skel",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcvpcpuRev_skel.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcvpcpuRev_skel.so"],
 			shared_libs: [ ],
 		},
@@ -2869,16 +2869,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdataitems",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdataitems.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdataitems.so"],
 			shared_libs: [ ],
 		},
@@ -2890,16 +2890,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdiag",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdiag.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdiag.so"],
 			shared_libs: [ ],
 		},
@@ -2911,16 +2911,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdiagjni",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdiagjni.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdiagjni.so"],
 			shared_libs: [ ],
 		},
@@ -2932,16 +2932,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdisp-aba",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdisp-aba.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdisp-aba.so"],
 			shared_libs: [ ],
 		},
@@ -2953,16 +2953,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdisplayqos",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdisplayqos.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdisplayqos.so"],
 			shared_libs: [ ],
 		},
@@ -2974,16 +2974,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdisplayskuutils",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdisplayskuutils.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdisplayskuutils.so"],
 			shared_libs: [ ],
 		},
@@ -2995,16 +2995,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdpps",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdpps.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdpps.so"],
 			shared_libs: [ ],
 		},
@@ -3016,16 +3016,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdrmfs",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdrmfs.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdrmfs.so"],
 			shared_libs: [ ],
 		},
@@ -3037,16 +3037,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdrmtime",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdrmtime.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdrmtime.so"],
 			shared_libs: [ ],
 		},
@@ -3058,16 +3058,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdsi_netctrl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdsi_netctrl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdsi_netctrl.so"],
 			shared_libs: [ ],
 		},
@@ -3079,16 +3079,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdsutils",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdsutils.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdsutils.so"],
 			shared_libs: [ ],
 		},
@@ -3100,16 +3100,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdualcam_refocus_image",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdualcam_refocus_image.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdualcam_refocus_image.so"],
 			shared_libs: [ ],
 		},
@@ -3121,16 +3121,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libegis_fp_normal_sensor_test",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libegis_fp_normal_sensor_test.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so"],
 			shared_libs: [ ],
 		},
@@ -3142,16 +3142,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libfastcvdsp_stub",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libfastcvdsp_stub.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libfastcvdsp_stub.so"],
 			shared_libs: [ ],
 		},
@@ -3163,16 +3163,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libfastcvopt",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libfastcvopt.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libfastcvopt.so"],
 			shared_libs: [ ],
 		},
@@ -3184,16 +3184,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libfloatingfeature",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libfloatingfeature.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libfloatingfeature.so"],
 			shared_libs: [ ],
 		},
@@ -3205,16 +3205,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgarden",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgarden.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgarden.so"],
 			shared_libs: [ ],
 		},
@@ -3226,16 +3226,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgcs-calwrapper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgcs-calwrapper.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgcs-calwrapper.so"],
 			shared_libs: [ ],
 		},
@@ -3247,16 +3247,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgcs-ipc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgcs-ipc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgcs-ipc.so"],
 			shared_libs: [ ],
 		},
@@ -3268,16 +3268,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgcs-osal",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgcs-osal.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgcs-osal.so"],
 			shared_libs: [ ],
 		},
@@ -3289,16 +3289,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgcs",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgcs.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgcs.so"],
 			shared_libs: [ ],
 		},
@@ -3310,16 +3310,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgeofencing",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgeofencing.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgeofencing.so"],
 			shared_libs: [ ],
 		},
@@ -3331,16 +3331,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgf_in_system_lib",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgf_in_system_lib.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgf_in_system_lib.so"],
 			shared_libs: [ ],
 		},
@@ -3352,16 +3352,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgnss",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgnss.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgnss.so"],
 			shared_libs: [ ],
 		},
@@ -3373,16 +3373,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgnsspps",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgnsspps.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgnsspps.so"],
 			shared_libs: [ ],
 		},
@@ -3394,16 +3394,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgps.utils",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgps.utils.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgps.utils.so"],
 			shared_libs: [ ],
 		},
@@ -3415,16 +3415,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgpudataproducer",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgpudataproducer.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgpudataproducer.so"],
 			shared_libs: [ ],
 		},
@@ -3436,16 +3436,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libgsl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgsl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgsl.so"],
 			shared_libs: [ ],
 		},
@@ -3457,16 +3457,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libhdr_tm",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libhdr_tm.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libhdr_tm.so"],
 			shared_libs: [ ],
 		},
@@ -3478,16 +3478,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libhta_hexagon_runtime",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libhta_hexagon_runtime.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libhta_hexagon_runtime.so"],
 			shared_libs: [ ],
 		},
@@ -3499,16 +3499,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libhypermotion_core",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libhypermotion_core.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libhypermotion_core.so"],
 			shared_libs: [ ],
 		},
@@ -3520,16 +3520,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libidl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libidl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libidl.so"],
 			shared_libs: [ ],
 		},
@@ -3541,16 +3541,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libipebpsstriping",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libipebpsstriping.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libipebpsstriping.so"],
 			shared_libs: [ ],
 		},
@@ -3562,16 +3562,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libizat_client_api",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libizat_client_api.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libizat_client_api.so"],
 			shared_libs: [ ],
 		},
@@ -3583,16 +3583,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libizat_core",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libizat_core.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libizat_core.so"],
 			shared_libs: [ ],
 		},
@@ -3604,16 +3604,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libjnihelper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libjnihelper.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libjnihelper.so"],
 			shared_libs: [ ],
 		},
@@ -3625,16 +3625,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "liblbs_core",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/liblbs_core.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/liblbs_core.so"],
 			shared_libs: [ ],
 		},
@@ -3646,16 +3646,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libllvm-glnext",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libllvm-glnext.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libllvm-glnext.so"],
 			shared_libs: [ ],
 		},
@@ -3667,16 +3667,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libllvm-qcom",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libllvm-qcom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libllvm-qcom.so"],
 			shared_libs: [ ],
 		},
@@ -3688,16 +3688,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libloc_api_v02",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libloc_api_v02.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libloc_api_v02.so"],
 			shared_libs: [ ],
 		},
@@ -3709,16 +3709,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libloc_core",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libloc_core.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libloc_core.so"],
 			shared_libs: [ ],
 		},
@@ -3730,16 +3730,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libloc_socket",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libloc_socket.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libloc_socket.so"],
 			shared_libs: [ ],
 		},
@@ -3751,16 +3751,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "liblocation_api",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/liblocation_api.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/liblocation_api.so"],
 			shared_libs: [ ],
 		},
@@ -3772,16 +3772,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "liblocationservice",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/liblocationservice.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/liblocationservice.so"],
 			shared_libs: [ ],
 		},
@@ -3793,16 +3793,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "liblocationservice_glue",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/liblocationservice_glue.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/liblocationservice_glue.so"],
 			shared_libs: [ ],
 		},
@@ -3814,16 +3814,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "liblowi_client",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/liblowi_client.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/liblowi_client.so"],
 			shared_libs: [ ],
 		},
@@ -3835,16 +3835,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmdmdetect",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmdmdetect.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmdmdetect.so"],
 			shared_libs: [ ],
 		},
@@ -3856,16 +3856,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmdsprpc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmdsprpc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmdsprpc.so"],
 			shared_libs: [ ],
 		},
@@ -3877,16 +3877,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libminkdescriptor",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libminkdescriptor.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libminkdescriptor.so"],
 			shared_libs: [ ],
 		},
@@ -3898,16 +3898,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libminksocket",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libminksocket.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libminksocket.so"],
 			shared_libs: [ ],
 		},
@@ -3919,16 +3919,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmmcamera_faceproc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_faceproc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmmcamera_faceproc.so"],
 			shared_libs: [ ],
 		},
@@ -3940,16 +3940,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmmcamera_faceproc2",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_faceproc2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmmcamera_faceproc2.so"],
 			shared_libs: [ ],
 		},
@@ -3961,16 +3961,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmmosal",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmosal.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmmosal.so"],
 			shared_libs: [ ],
 		},
@@ -3982,16 +3982,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmpbase",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmpbase.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmpbase.so"],
 			shared_libs: [ ],
 		},
@@ -4003,16 +4003,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmulawdec",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmulawdec.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmulawdec.so"],
 			shared_libs: [ ],
 		},
@@ -4024,16 +4024,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmultiobject_tracker",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmultiobject_tracker.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmultiobject_tracker.so"],
 			shared_libs: [ ],
 		},
@@ -4045,16 +4045,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libnetmgr",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libnetmgr.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libnetmgr.so"],
 			shared_libs: [ ],
 		},
@@ -4066,16 +4066,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libnetmgr_common",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libnetmgr_common.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libnetmgr_common.so"],
 			shared_libs: [ ],
 		},
@@ -4087,16 +4087,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libnpu",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libnpu.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libnpu.so"],
 			shared_libs: [ ],
 		},
@@ -4108,16 +4108,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "liboemcrypto",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/liboemcrypto.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/liboemcrypto.so"],
 			shared_libs: [ ],
 		},
@@ -4129,16 +4129,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libofflinelog",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libofflinelog.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libofflinelog.so"],
 			shared_libs: [ ],
 		},
@@ -4150,16 +4150,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libops",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libops.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libops.so"],
 			shared_libs: [ ],
 		},
@@ -4171,16 +4171,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libpdmapper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libpdmapper.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libpdmapper.so"],
 			shared_libs: [ ],
 		},
@@ -4192,16 +4192,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libpdnotifier",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libpdnotifier.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libpdnotifier.so"],
 			shared_libs: [ ],
 		},
@@ -4213,16 +4213,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libperfconfig",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libperfconfig.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libperfconfig.so"],
 			shared_libs: [ ],
 		},
@@ -4234,16 +4234,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libperfgluelayer",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libperfgluelayer.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libperfgluelayer.so"],
 			shared_libs: [ ],
 		},
@@ -4255,16 +4255,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libperfioctl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libperfioctl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libperfioctl.so"],
 			shared_libs: [ ],
 		},
@@ -4276,16 +4276,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libperipheral_client",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libperipheral_client.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libperipheral_client.so"],
 			shared_libs: [ ],
 		},
@@ -4297,16 +4297,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libprotobuf-cpp-full-3.9.1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so"],
 			shared_libs: [ ],
 		},
@@ -4318,16 +4318,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libprotobuf-cpp-lite-3.9.1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so"],
 			shared_libs: [ ],
 		},
@@ -4339,16 +4339,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libpvr",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libpvr.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libpvr.so"],
 			shared_libs: [ ],
 		},
@@ -4360,16 +4360,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqcbor",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqcbor.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqcbor.so"],
 			shared_libs: [ ],
 		},
@@ -4381,16 +4381,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqcc_file_agent",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqcc_file_agent.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqcc_file_agent.so"],
 			shared_libs: [ ],
 		},
@@ -4402,16 +4402,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqcci_legacy",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqcci_legacy.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqcci_legacy.so"],
 			shared_libs: [ ],
 		},
@@ -4423,16 +4423,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqcmaputils",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqcmaputils.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqcmaputils.so"],
 			shared_libs: [ ],
 		},
@@ -4444,16 +4444,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqcwrappercommon",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqcwrappercommon.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqcwrappercommon.so"],
 			shared_libs: [ ],
 		},
@@ -4465,16 +4465,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqdi",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqdi.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqdi.so"],
 			shared_libs: [ ],
 		},
@@ -4486,16 +4486,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqdma_file_agent",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqdma_file_agent.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqdma_file_agent.so"],
 			shared_libs: [ ],
 		},
@@ -4507,16 +4507,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqdp",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqdp.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqdp.so"],
 			shared_libs: [ ],
 		},
@@ -4528,16 +4528,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqfp_sensortest",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqfp_sensortest.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqfp_sensortest.so"],
 			shared_libs: [ ],
 		},
@@ -4549,16 +4549,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqisl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqisl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqisl.so"],
 			shared_libs: [ ],
 		},
@@ -4570,16 +4570,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqmi",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqmi.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqmi.so"],
 			shared_libs: [ ],
 		},
@@ -4591,16 +4591,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqmi_cci",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqmi_cci.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqmi_cci.so"],
 			shared_libs: [ ],
 		},
@@ -4612,16 +4612,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqmi_client_helper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqmi_client_helper.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqmi_client_helper.so"],
 			shared_libs: [ ],
 		},
@@ -4633,16 +4633,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqmi_client_qmux",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqmi_client_qmux.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqmi_client_qmux.so"],
 			shared_libs: [ ],
 		},
@@ -4654,16 +4654,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqmi_common_so",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqmi_common_so.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqmi_common_so.so"],
 			shared_libs: [ ],
 		},
@@ -4675,16 +4675,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqmi_csi",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqmi_csi.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqmi_csi.so"],
 			shared_libs: [ ],
 		},
@@ -4696,16 +4696,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqmi_csvt_srvc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqmi_csvt_srvc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqmi_csvt_srvc.so"],
 			shared_libs: [ ],
 		},
@@ -4717,16 +4717,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqmi_encdec",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqmi_encdec.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqmi_encdec.so"],
 			shared_libs: [ ],
 		},
@@ -4738,16 +4738,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqmi_legacy",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqmi_legacy.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqmi_legacy.so"],
 			shared_libs: [ ],
 		},
@@ -4759,16 +4759,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqmiservices",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqmiservices.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqmiservices.so"],
 			shared_libs: [ ],
 		},
@@ -4780,16 +4780,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqrtr",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqrtr.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqrtr.so"],
 			shared_libs: [ ],
 		},
@@ -4801,16 +4801,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqsap_sdk",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqsap_sdk.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqsap_sdk.so"],
 			shared_libs: [ ],
 		},
@@ -4822,16 +4822,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqseed3",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqseed3.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqseed3.so"],
 			shared_libs: [ ],
 		},
@@ -4843,16 +4843,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqsocket",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqsocket.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqsocket.so"],
 			shared_libs: [ ],
 		},
@@ -4864,16 +4864,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqti-iopd-client",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqti-iopd-client.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqti-iopd-client.so"],
 			shared_libs: [ ],
 		},
@@ -4885,16 +4885,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqti-iopd",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqti-iopd.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqti-iopd.so"],
 			shared_libs: [ ],
 		},
@@ -4906,16 +4906,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqti-perfd-client",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqti-perfd-client.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqti-perfd-client.so"],
 			shared_libs: [ ],
 		},
@@ -4927,16 +4927,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqti-perfd",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqti-perfd.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqti-perfd.so"],
 			shared_libs: [ ],
 		},
@@ -4948,16 +4948,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqti-util",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqti-util.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqti-util.so"],
 			shared_libs: [ ],
 		},
@@ -4969,16 +4969,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "librpmb",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/librpmb.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/librpmb.so"],
 			shared_libs: [ ],
 		},
@@ -4990,16 +4990,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libscenedetector.uniplugin@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libscenedetector.uniplugin@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libscenedetector.uniplugin@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -5011,16 +5011,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libscveCommon",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libscveCommon.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libscveCommon.so"],
 			shared_libs: [ ],
 		},
@@ -5032,16 +5032,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libscveCommon_stub",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libscveCommon_stub.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libscveCommon_stub.so"],
 			shared_libs: [ ],
 		},
@@ -5053,16 +5053,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libscveObjectSegmentation",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libscveObjectSegmentation.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libscveObjectSegmentation.so"],
 			shared_libs: [ ],
 		},
@@ -5074,16 +5074,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libscveObjectSegmentation_stub",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libscveObjectSegmentation_stub.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libscveObjectSegmentation_stub.so"],
 			shared_libs: [ ],
 		},
@@ -5095,16 +5095,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libscveObjectTracker",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libscveObjectTracker.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libscveObjectTracker.so"],
 			shared_libs: [ ],
 		},
@@ -5116,16 +5116,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libscveObjectTracker_stub",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libscveObjectTracker_stub.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libscveObjectTracker_stub.so"],
 			shared_libs: [ ],
 		},
@@ -5137,16 +5137,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsdedrm",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsdedrm.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsdedrm.so"],
 			shared_libs: [ ],
 		},
@@ -5158,16 +5158,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsdm-color",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsdm-color.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsdm-color.so"],
 			shared_libs: [ ],
 		},
@@ -5179,16 +5179,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsdm-colormgr-algo",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsdm-colormgr-algo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsdm-colormgr-algo.so"],
 			shared_libs: [ ],
 		},
@@ -5200,16 +5200,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsdm-diag",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsdm-diag.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsdm-diag.so"],
 			shared_libs: [ ],
 		},
@@ -5221,16 +5221,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsdm-disp-vndapis",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsdm-disp-vndapis.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsdm-disp-vndapis.so"],
 			shared_libs: [ ],
 		},
@@ -5242,16 +5242,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsdsprpc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsdsprpc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsdsprpc.so"],
 			shared_libs: [ ],
 		},
@@ -5263,16 +5263,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsec2qc_conversion",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsec2qc_conversion.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsec2qc_conversion.so"],
 			shared_libs: [ ],
 		},
@@ -5284,16 +5284,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsecnativefeature",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsecnativefeature.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsecnativefeature.so"],
 			shared_libs: [ ],
 		},
@@ -5305,16 +5305,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsecureui",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsecureui.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsecureui.so"],
 			shared_libs: [ ],
 		},
@@ -5326,16 +5326,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsecureui_svcsock",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsecureui_svcsock.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsecureui_svcsock.so"],
 			shared_libs: [ ],
 		},
@@ -5347,16 +5347,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsemnativecarrierfeature",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsemnativecarrierfeature.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsemnativecarrierfeature.so"],
 			shared_libs: [ ],
 		},
@@ -5368,16 +5368,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsensorlistener",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsensorlistener.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsensorlistener.so"],
 			shared_libs: [ ],
 		},
@@ -5389,16 +5389,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsensorndkbridge",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsensorndkbridge.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsensorndkbridge.so"],
 			shared_libs: [ ],
 		},
@@ -5410,16 +5410,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsensorslog",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsensorslog.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsensorslog.so"],
 			shared_libs: [ ],
 		},
@@ -5431,16 +5431,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsnap_vndk",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsnap_vndk.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsnap_vndk.so"],
 			shared_libs: [ ],
 		},
@@ -5452,16 +5452,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsns_device_mode_stub",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsns_device_mode_stub.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsns_device_mode_stub.so"],
 			shared_libs: [ ],
 		},
@@ -5473,16 +5473,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsns_fastRPC_util",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsns_fastRPC_util.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsns_fastRPC_util.so"],
 			shared_libs: [ ],
 		},
@@ -5494,16 +5494,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsns_low_lat_stream_stub",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsns_low_lat_stream_stub.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsns_low_lat_stream_stub.so"],
 			shared_libs: [ ],
 		},
@@ -5515,16 +5515,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsns_registry_skel",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsns_registry_skel.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsns_registry_skel.so"],
 			shared_libs: [ ],
 		},
@@ -5536,16 +5536,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsnsapi",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsnsapi.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsnsapi.so"],
 			shared_libs: [ ],
 		},
@@ -5557,16 +5557,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsnsdiaglog",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsnsdiaglog.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsnsdiaglog.so"],
 			shared_libs: [ ],
 		},
@@ -5578,16 +5578,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libssc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libssc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libssc.so"],
 			shared_libs: [ ],
 		},
@@ -5599,16 +5599,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libssc_default_listener",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libssc_default_listener.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libssc_default_listener.so"],
 			shared_libs: [ ],
 		},
@@ -5620,16 +5620,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libssd",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libssd.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libssd.so"],
 			shared_libs: [ ],
 		},
@@ -5641,16 +5641,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libswregistrationalgo",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libswregistrationalgo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libswregistrationalgo.so"],
 			shared_libs: [ ],
 		},
@@ -5662,16 +5662,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsynaFpSensorTestNwd",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsynaFpSensorTestNwd.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsynaFpSensorTestNwd.so"],
 			shared_libs: [ ],
 		},
@@ -5683,16 +5683,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsynergy_loc_api",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsynergy_loc_api.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsynergy_loc_api.so"],
 			shared_libs: [ ],
 		},
@@ -5704,16 +5704,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsysmon_cdsp_skel",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsysmon_cdsp_skel.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsysmon_cdsp_skel.so"],
 			shared_libs: [ ],
 		},
@@ -5725,16 +5725,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsystem_health_mon",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsystem_health_mon.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsystem_health_mon.so"],
 			shared_libs: [ ],
 		},
@@ -5746,16 +5746,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libthermalclient",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libthermalclient.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
 			shared_libs: [ ],
 		},
@@ -5767,16 +5767,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libthirdparty_zoomtranslator_imp",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libthirdparty_zoomtranslator_imp.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libthirdparty_zoomtranslator_imp.so"],
 			shared_libs: [ ],
 		},
@@ -5788,16 +5788,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libtime_genoff",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libtime_genoff.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libtime_genoff.so"],
 			shared_libs: [ ],
 		},
@@ -5809,16 +5809,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libtinyxml2_1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libtinyxml2_1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libtinyxml2_1.so"],
 			shared_libs: [ ],
 		},
@@ -5830,16 +5830,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libtriplecam_image_optical_zoom",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libtriplecam_image_optical_zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libtriplecam_image_optical_zoom.so"],
 			shared_libs: [ ],
 		},
@@ -5851,16 +5851,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libtriplecam_optical_zoom_control",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libtriplecam_optical_zoom_control.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libtriplecam_optical_zoom_control.so"],
 			shared_libs: [ ],
 		},
@@ -5872,16 +5872,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libtriplecam_video_optical_zoom",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libtriplecam_video_optical_zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libtriplecam_video_optical_zoom.so"],
 			shared_libs: [ ],
 		},
@@ -5893,16 +5893,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libtrustedapploader",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libtrustedapploader.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libtrustedapploader.so"],
 			shared_libs: [ ],
 		},
@@ -5914,16 +5914,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libuniplugin",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libuniplugin.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libuniplugin.so"],
 			shared_libs: [ ],
 		},
@@ -5935,16 +5935,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libvdis_interface",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libvdis_interface.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libvdis_interface.so"],
 			shared_libs: [ ],
 		},
@@ -5956,16 +5956,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libxml",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libxml.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libxml.so"],
 			shared_libs: [ ],
 		},
@@ -5977,16 +5977,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libclearkeycasplugin",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/mediacas/libclearkeycasplugin.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so"],
 			shared_libs: [ ],
 		},
@@ -5999,16 +5999,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "sensors.grip",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/sensors.grip.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/sensors.grip.so"],
 			shared_libs: [ ],
 		},
@@ -6020,16 +6020,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "sensors.ssc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/sensors.ssc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/sensors.ssc.so"],
 			shared_libs: [ ],
 		},
@@ -6041,16 +6041,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libaudioeffectoffload",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libaudioeffectoffload.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libaudioeffectoffload.so"],
 			shared_libs: [ ],
 		},
@@ -6063,16 +6063,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libaudiopreprocessing",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libaudiopreprocessing.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so"],
 			shared_libs: [ ],
 		},
@@ -6085,16 +6085,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libaudiosaplus_sec",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libaudiosaplus_sec.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libaudiosaplus_sec.so"],
 			shared_libs: [ ],
 		},
@@ -6107,16 +6107,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libbundlewrapper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libbundlewrapper.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libbundlewrapper.so"],
 			shared_libs: [ ],
 		},
@@ -6129,16 +6129,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdownmix",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libdownmix.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libdownmix.so"],
 			shared_libs: [ ],
 		},
@@ -6151,16 +6151,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdynproc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libdynproc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libdynproc.so"],
 			shared_libs: [ ],
 		},
@@ -6173,16 +6173,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libeffectproxy",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libeffectproxy.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libeffectproxy.so"],
 			shared_libs: [ ],
 		},
@@ -6195,16 +6195,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libldnhncr",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libldnhncr.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libldnhncr.so"],
 			shared_libs: [ ],
 		},
@@ -6217,16 +6217,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmysound",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libmysound.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libmysound.so"],
 			shared_libs: [ ],
 		},
@@ -6239,16 +6239,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmyspace",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libmyspace.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libmyspace.so"],
 			shared_libs: [ ],
 		},
@@ -6261,16 +6261,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libplaybackrecorder",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libplaybackrecorder.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libplaybackrecorder.so"],
 			shared_libs: [ ],
 		},
@@ -6283,16 +6283,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqcompostprocbundle",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libqcompostprocbundle.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so"],
 			shared_libs: [ ],
 		},
@@ -6305,16 +6305,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqcomvisualizer",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libqcomvisualizer.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libqcomvisualizer.so"],
 			shared_libs: [ ],
 		},
@@ -6327,16 +6327,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqcomvoiceprocessing",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so"],
 			shared_libs: [ ],
 		},
@@ -6349,16 +6349,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libreverbwrapper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libreverbwrapper.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libreverbwrapper.so"],
 			shared_libs: [ ],
 		},
@@ -6371,16 +6371,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsamsungSoundbooster_plus",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libsamsungSoundbooster_plus.so"],
 			shared_libs: [ ],
 		},
@@ -6393,16 +6393,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libswdap",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libswdap.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libswdap.so"],
 			shared_libs: [ ],
 		},
@@ -6415,16 +6415,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libswspatializer",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libswspatializer.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libswspatializer.so"],
 			shared_libs: [ ],
 		},
@@ -6437,16 +6437,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libvisualizer",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libvisualizer.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/soundfx/libvisualizer.so"],
 			shared_libs: [ ],
 		},
@@ -6459,16 +6459,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "unihal_cutils@2.15",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/unihal_cutils@2.15.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/unihal_cutils@2.15.so"],
 			shared_libs: [ ],
 		},
@@ -6480,16 +6480,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "unihal_main@2.15",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/unihal_main@2.15.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/unihal_main@2.15.so"],
 			shared_libs: [ ],
 		},
@@ -6501,16 +6501,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "unihal_uniplugin@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/unihal_uniplugin@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/unihal_uniplugin@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6522,16 +6522,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "unnhal-acc-hta",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/unnhal-acc-hta.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/unnhal-acc-hta.so"],
 			shared_libs: [ ],
 		},
@@ -6543,16 +6543,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.color@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.display.color@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.color@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6564,16 +6564,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.color@1.1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.display.color@1.1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.color@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -6585,16 +6585,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.color@1.2",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.display.color@1.2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.color@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -6606,16 +6606,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.color@1.3",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.display.color@1.3.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.color@1.3.so"],
 			shared_libs: [ ],
 		},
@@ -6627,16 +6627,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.color@1.4",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.display.color@1.4.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.color@1.4.so"],
 			shared_libs: [ ],
 		},
@@ -6648,16 +6648,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.color@1.5",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.display.color@1.5.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.color@1.5.so"],
 			shared_libs: [ ],
 		},
@@ -6669,16 +6669,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.postproc@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.display.postproc@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.postproc@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6690,16 +6690,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.gnss@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.gnss@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6711,16 +6711,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.gnss@1.1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.gnss@1.1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -6732,16 +6732,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.gnss@1.2",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.gnss@1.2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -6753,16 +6753,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.gnss@2.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.gnss@2.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -6774,16 +6774,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.gnss@2.1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.gnss@2.1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -6795,16 +6795,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.gnss@3.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.gnss@3.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@3.0.so"],
 			shared_libs: [ ],
 		},
@@ -6816,16 +6816,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.gnss@4.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.gnss@4.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@4.0.so"],
 			shared_libs: [ ],
 		},
@@ -6837,16 +6837,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.bluetooth_sar@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6858,16 +6858,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.bluetooth_sar@1.1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -6879,16 +6879,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.cacert@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.cacert@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6900,16 +6900,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.camera.postproc@1.0-service-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so"],
 			shared_libs: [ ],
 		},
@@ -6921,16 +6921,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.cvp@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.cvp@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.cvp@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6942,16 +6942,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.dsp@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.dsp@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6963,16 +6963,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.fingerprint@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6984,16 +6984,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.fm@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7005,16 +7005,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.iop@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7026,16 +7026,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.iop@2.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -7047,16 +7047,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.qccsyshal@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7068,16 +7068,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.qseecom@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.qseecom@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.qseecom@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7089,16 +7089,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.tui_comm@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7110,16 +7110,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.vpp@1.1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7131,16 +7131,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.vpp@1.2",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -7152,16 +7152,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.vpp@1.3",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.vpp@1.3.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.3.so"],
 			shared_libs: [ ],
 		},
@@ -7173,16 +7173,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.bluetooth.a2dp@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7194,16 +7194,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.bluetooth@2.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -7215,16 +7215,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.gnss@2.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.samsung.hardware.gnss@2.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -7236,16 +7236,16 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.thermal@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.samsung.hardware.thermal@1.0.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.thermal@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7257,12 +7257,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "audio.primary.lito",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/audio.primary.lito.so"],
 			shared_libs: [ ],
 		},
@@ -7275,12 +7275,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "lib_SamsungRec_07010",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/lib_SamsungRec_07010.so"],
 			shared_libs: [ ],
 		},
@@ -7292,12 +7292,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "lib_SoundAlive_SRC384_ver320",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/lib_SoundAlive_SRC384_ver320.so"],
 			shared_libs: [ ],
 		},
@@ -7309,12 +7309,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "lib_soundaliveresampler",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/lib_soundaliveresampler.so"],
 			shared_libs: [ ],
 		},
@@ -7327,12 +7327,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "liba2dpoffload_vendor",
 	stem: "liba2dpoffload",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/liba2dpoffload.so"],
 			shared_libs: [ ],
 		},
@@ -7344,12 +7344,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libadm",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libadm.so"],
 			shared_libs: [ ],
 		},
@@ -7361,12 +7361,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libaudio_log_utils",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaudio_log_utils.so"],
 			shared_libs: [ ],
 		},
@@ -7378,12 +7378,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libaudio_soundtrigger",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaudio_soundtrigger.so"],
 			shared_libs: [ ],
 		},
@@ -7396,12 +7396,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libbatterylistener_vendor",
 	stem: "libbatterylistener",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbatterylistener.so"],
 			shared_libs: [ ],
 		},
@@ -7414,12 +7414,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libcirrusspkrprot_vendor",
 	stem: "libcirrusspkrprot",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcirrusspkrprot.so"],
 			shared_libs: [ ],
 		},
@@ -7432,12 +7432,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libcomprcapture_vendor",
 	stem: "libcomprcapture",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcomprcapture.so"],
 			shared_libs: [ ],
 		},
@@ -7449,12 +7449,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libdrc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdrc.so"],
 			shared_libs: [ ],
 		},
@@ -7467,12 +7467,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libexthwplugin_vendor",
 	stem: "libexthwplugin",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libexthwplugin.so"],
 			shared_libs: [ ],
 		},
@@ -7485,12 +7485,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libhdmiedid_vendor",
 	stem: "libhdmiedid",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libhdmiedid.so"],
 			shared_libs: [ ],
 		},
@@ -7503,12 +7503,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libhdmipassthru_vendor",
 	stem: "libhdmipassthru",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libhdmipassthru.so"],
 			shared_libs: [ ],
 		},
@@ -7521,12 +7521,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libhfp_vendor",
 	stem: "libhfp",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libhfp.so"],
 			shared_libs: [ ],
 		},
@@ -7538,12 +7538,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqtigef",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqtigef.so"],
 			shared_libs: [ ],
 		},
@@ -7555,12 +7555,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "librecordalive",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/librecordalive.so"],
 			shared_libs: [ ],
 		},
@@ -7572,12 +7572,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsamsungVoipResampler",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsamsungVoipResampler.so"],
 			shared_libs: [ ],
 		},
@@ -7590,12 +7590,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libsndmonitor_vendor",
 	stem: "libsndmonitor",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsndmonitor.so"],
 			shared_libs: [ ],
 		},
@@ -7608,12 +7608,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libspkrprot_vendor",
 	stem: "libspkrprot",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libspkrprot.so"],
 			shared_libs: [ ],
 		},
@@ -7625,12 +7625,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsurround_3mic_proc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsurround_3mic_proc.so"],
 			shared_libs: [ ],
 		},
@@ -7642,12 +7642,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libwfdaac_vendor",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdaac_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -7659,12 +7659,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libwvhidl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwvhidl.so"],
 			shared_libs: [ ],
 		},
@@ -7676,12 +7676,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libwvdrmengine",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/mediadrm/libwvdrmengine.so"],
 			shared_libs: [ ],
 		},
@@ -7694,12 +7694,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libasphere",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libasphere.so"],
 			shared_libs: [ ],
 		},
@@ -7712,12 +7712,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqcbassboost",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libqcbassboost.so"],
 			shared_libs: [ ],
 		},
@@ -7730,12 +7730,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqcreverb",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libqcreverb.so"],
 			shared_libs: [ ],
 		},
@@ -7748,12 +7748,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libqcvirt",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libqcvirt.so"],
 			shared_libs: [ ],
 		},
@@ -7766,12 +7766,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libshoebox",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libshoebox.so"],
 			shared_libs: [ ],
 		},
@@ -7784,12 +7784,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libvolumelistener",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libvolumelistener.so"],
 			shared_libs: [ ],
 		},
@@ -7802,12 +7802,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.audiohalext@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.audiohalext@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7819,12 +7819,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.memory.pasrmanager@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.memory.pasrmanager@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7836,12 +7836,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.qti.memory.pasrmanager@1.1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.memory.pasrmanager@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7853,12 +7853,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "camera.device@1.0-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera.device@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -7870,12 +7870,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "camera.device@3.2-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera.device@3.2-impl.so"],
 			shared_libs: [ ],
 		},
@@ -7887,12 +7887,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "camera.device@3.3-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera.device@3.3-impl.so"],
 			shared_libs: [ ],
 		},
@@ -7904,12 +7904,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "camera.device@3.4-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera.device@3.4-impl.so"],
 			shared_libs: [ ],
 		},
@@ -7921,12 +7921,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "camera.device@3.5-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera.device@3.5-impl.so"],
 			shared_libs: [ ],
 		},
@@ -7938,12 +7938,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.aec",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so"],
 			shared_libs: [ ],
 		},
@@ -7956,12 +7956,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.af",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.af.so"],
 			shared_libs: [ ],
 		},
@@ -7974,12 +7974,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.awb",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.awb.so"],
 			shared_libs: [ ],
 		},
@@ -7992,12 +7992,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.haf",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.haf.so"],
 			shared_libs: [ ],
 		},
@@ -8010,12 +8010,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.localhistogram",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.localhistogram.so"],
 			shared_libs: [ ],
 		},
@@ -8028,12 +8028,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.pdlib",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.pdlib.so"],
 			shared_libs: [ ],
 		},
@@ -8046,12 +8046,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "com.qti.stats.statsgenerator",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.statsgenerator.so"],
 			shared_libs: [ ],
 		},
@@ -8064,12 +8064,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libMOTION",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/libMOTION.so"],
 			shared_libs: [ ],
 		},
@@ -8082,12 +8082,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "gatekeeper.mdfpp",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/gatekeeper.mdfpp.so"],
 			shared_libs: [ ],
 		},
@@ -8100,12 +8100,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "lights.lito",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/lights.lito.so"],
 			shared_libs: [ ],
 		},
@@ -8118,12 +8118,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libSNPE",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libSNPE.so"],
 			shared_libs: [ ],
 		},
@@ -8135,12 +8135,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libSemDataProps",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libSemDataProps.so"],
 			shared_libs: [ ],
 		},
@@ -8152,12 +8152,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libSemTelephonyProps",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libSemTelephonyProps.so"],
 			shared_libs: [ ],
 		},
@@ -8169,12 +8169,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libc++_shared",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libc++_shared.so"],
 			shared_libs: [ ],
 		},
@@ -8186,12 +8186,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libengmode15",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libengmode15.so"],
 			shared_libs: [ ],
 		},
@@ -8203,12 +8203,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libengmode2lite",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libengmode2lite.so"],
 			shared_libs: [ ],
 		},
@@ -8220,12 +8220,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libengmode_client",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libengmode_client.so"],
 			shared_libs: [ ],
 		},
@@ -8237,12 +8237,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libengmode_tlc",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libengmode_tlc.so"],
 			shared_libs: [ ],
 		},
@@ -8254,12 +8254,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libhexagon_nn_stub",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libhexagon_nn_stub.so"],
 			shared_libs: [ ],
 		},
@@ -8271,12 +8271,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libhta",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libhta.so"],
 			shared_libs: [ ],
 		},
@@ -8288,12 +8288,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libhypervintf",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libhypervintf.so"],
 			shared_libs: [ ],
 		},
@@ -8305,12 +8305,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libipanat",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libipanat.so"],
 			shared_libs: [ ],
 		},
@@ -8322,12 +8322,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libkeymaster_helper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libkeymaster_helper.so"],
 			shared_libs: [ ],
 		},
@@ -8339,12 +8339,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "liblearningmodule",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/liblearningmodule.so"],
 			shared_libs: [ ],
 		},
@@ -8356,12 +8356,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libloadalgo_stub",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libloadalgo_stub.so"],
 			shared_libs: [ ],
 		},
@@ -8373,12 +8373,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmeters",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmeters.so"],
 			shared_libs: [ ],
 		},
@@ -8390,12 +8390,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libnanopb",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libnanopb.so"],
 			shared_libs: [ ],
 		},
@@ -8407,12 +8407,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libreffeature",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libreffeature.so"],
 			shared_libs: [ ],
 		},
@@ -8424,12 +8424,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libremosaiclib",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libremosaiclib.so"],
 			shared_libs: [ ],
 		},
@@ -8441,12 +8441,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libril_sem",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libril_sem.so"],
 			shared_libs: [ ],
 		},
@@ -8458,12 +8458,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "librilutils",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/librilutils.so"],
 			shared_libs: [ ],
 		},
@@ -8475,12 +8475,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsdmextension",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsdmextension.so"],
 			shared_libs: [ ],
 		},
@@ -8492,12 +8492,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsec-ril",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsec-ril.so"],
 			shared_libs: [ ],
 		},
@@ -8510,12 +8510,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libsecril-client_vendor",
 	stem: "libsecril-client",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsecril-client.so"],
 			shared_libs: [ ],
 		},
@@ -8527,12 +8527,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libskeymaster4device",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libskeymaster4device.so"],
 			shared_libs: [ ],
 		},
@@ -8544,12 +8544,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsnap_compute",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsnap_compute.so"],
 			shared_libs: [ ],
 		},
@@ -8561,12 +8561,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsnap_compute_wrapper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsnap_compute_wrapper.so"],
 			shared_libs: [ ],
 		},
@@ -8578,12 +8578,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsnap_v1.samsung",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsnap_v1.samsung.so"],
 			shared_libs: [ ],
 		},
@@ -8595,12 +8595,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsnaplite_native",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsnaplite_native.so"],
 			shared_libs: [ ],
 		},
@@ -8612,12 +8612,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsnaplite_wrapper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsnaplite_wrapper.so"],
 			shared_libs: [ ],
 		},
@@ -8629,12 +8629,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsnpe_dsp_domains_v2",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsnpe_dsp_domains_v2.so"],
 			shared_libs: [ ],
 		},
@@ -8646,12 +8646,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libsnpe_wrapper",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsnpe_wrapper.so"],
 			shared_libs: [ ],
 		},
@@ -8663,12 +8663,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libstork_shared",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libstork_shared.so"],
 			shared_libs: [ ],
 		},
@@ -8680,12 +8680,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libvkmanager_vendor",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libvkmanager_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -8697,12 +8697,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "nfc_nci_nxpsn",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/nfc_nci_nxpsn.so"],
 			shared_libs: [ ],
 		},
@@ -8714,12 +8714,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "unnhal-acc-adreno",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/unnhal-acc-adreno.so"],
 			shared_libs: [ ],
 		},
@@ -8731,12 +8731,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "unnhal-acc-common",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/unnhal-acc-common.so"],
 			shared_libs: [ ],
 		},
@@ -8748,12 +8748,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "unnhal-acc-hvx",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/unnhal-acc-hvx.so"],
 			shared_libs: [ ],
 		},
@@ -8765,12 +8765,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8782,12 +8782,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -8799,12 +8799,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.10",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.10.so"],
 			shared_libs: [ ],
 		},
@@ -8816,12 +8816,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.11",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.11.so"],
 			shared_libs: [ ],
 		},
@@ -8833,12 +8833,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.2",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -8850,12 +8850,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.3",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.3.so"],
 			shared_libs: [ ],
 		},
@@ -8867,12 +8867,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.4",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.4.so"],
 			shared_libs: [ ],
 		},
@@ -8884,12 +8884,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.5",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.5.so"],
 			shared_libs: [ ],
 		},
@@ -8901,12 +8901,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.6",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.6.so"],
 			shared_libs: [ ],
 		},
@@ -8918,12 +8918,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.7",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.7.so"],
 			shared_libs: [ ],
 		},
@@ -8935,12 +8935,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.8",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.8.so"],
 			shared_libs: [ ],
 		},
@@ -8952,12 +8952,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@1.9",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@1.9.so"],
 			shared_libs: [ ],
 		},
@@ -8969,12 +8969,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.display.config@2.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.config@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -8986,12 +8986,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.biometrics.fingerprint@3.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so"],
 			shared_libs: [ ],
 		},
@@ -9003,12 +9003,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.camera.device@5.0-impl",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -9020,12 +9020,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.camera.device@5.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@5.0.so"],
 			shared_libs: [ ],
 		},
@@ -9037,12 +9037,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.camera.provider@4.0-legacy",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so"],
 			shared_libs: [ ],
 		},
@@ -9054,12 +9054,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.camera.provider@4.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider@4.0.so"],
 			shared_libs: [ ],
 		},
@@ -9071,12 +9071,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.hyper-V2-ndk_platform",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so"],
 			shared_libs: [ ],
 		},
@@ -9088,12 +9088,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.light-V1-ndk_platform",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so"],
 			shared_libs: [ ],
 		},
@@ -9105,12 +9105,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.nfc@2.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.nfc@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -9122,12 +9122,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.radio.bridge@2.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -9139,12 +9139,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.radio.bridge@2.1",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -9156,12 +9156,12 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.radio.channel@2.0",
-	owner: "",
+	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -9174,7 +9174,7 @@ cc_prebuilt_library_shared {
 prebuilt_rfsa {
 	name: "capi_v2_aptX_CLHDAD_Encoder",
 	filename: "capi_v2_aptX_CLHDAD_Encoder.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9183,7 +9183,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libapps_mem_heap",
 	filename: "libapps_mem_heap.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9192,7 +9192,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libbitml_nsp_skel",
 	filename: "libbitml_nsp_skel.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9201,7 +9201,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libcamera_nn_skel",
 	filename: "libcamera_nn_skel.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libcamera_nn_skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9210,7 +9210,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libcvpdsp_skel",
 	filename: "libcvpdsp_skel.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libcvpdsp_skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9219,7 +9219,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libdspCV_skel",
 	filename: "libdspCV_skel.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9228,7 +9228,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libdsp_streamer_binning",
 	filename: "libdsp_streamer_binning.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9237,7 +9237,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libfastcvadsp",
 	filename: "libfastcvadsp.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9246,7 +9246,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libfastcvdsp_skel",
 	filename: "libfastcvdsp_skel.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9255,7 +9255,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libhexagon_nn_skel",
 	filename: "libhexagon_nn_skel.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9264,7 +9264,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libscveObjectSegmentation_skel",
 	filename: "libscveObjectSegmentation_skel.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9273,7 +9273,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libscveT2T_skel",
 	filename: "libscveT2T_skel.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9282,7 +9282,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
 	name: "libsnpe_dsp_v66_domains_v2_skel",
 	filename: "libsnpe_dsp_v66_domains_v2_skel.so",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
@@ -9290,7 +9290,7 @@ prebuilt_rfsa {
 
 android_app_import {
 	name: "CACertService",
-	owner: "",
+	owner: "samsung",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -9301,7 +9301,7 @@ android_app_import {
 
 android_app_import {
 	name: "TimeService",
-	owner: "",
+	owner: "samsung",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -9312,7 +9312,7 @@ android_app_import {
 
 android_app_import {
 	name: "com.qualcomm.qti.gpudrivers.lito.api30",
-	owner: "",
+	owner: "samsung",
 	apk: "proprietary/vendor/app/com.qualcomm.qti.gpudrivers.lito.api30/com.qualcomm.qti.gpudrivers.lito.api30.apk",
 	preprocessed: true,
 	presigned: true,
@@ -9324,7 +9324,7 @@ android_app_import {
 
 prebuilt_etc_xml {
 	name: "android.hardware.gnss@2.1-service-qti.xml",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
@@ -9333,7 +9333,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
@@ -9342,7 +9342,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks@1.3-service-qti.xml",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
@@ -9351,7 +9351,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.3-service.widevine.xml",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
@@ -9360,7 +9360,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
 	name: "nxp.android.hardware.nfc@1.2-service.xml",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/nxp.android.hardware.nfc@1.2-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
@@ -9369,7 +9369,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
 	name: "vendor.samsung.hardware.thermal@1.0-manifest.xml",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
@@ -9378,7 +9378,7 @@ prebuilt_etc_xml {
 
 sh_binary {
 	name: "adpl",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/adpl",
 	filename: "adpl",
 	soc_specific: true,
@@ -9386,7 +9386,7 @@ sh_binary {
 
 sh_binary {
 	name: "adsprpcd",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/adsprpcd",
 	filename: "adsprpcd",
 	soc_specific: true,
@@ -9394,7 +9394,7 @@ sh_binary {
 
 sh_binary {
 	name: "cdsprpcd",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/cdsprpcd",
 	filename: "cdsprpcd",
 	soc_specific: true,
@@ -9402,7 +9402,7 @@ sh_binary {
 
 sh_binary {
 	name: "cnss-daemon",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/cnss-daemon",
 	filename: "cnss-daemon",
 	soc_specific: true,
@@ -9410,7 +9410,7 @@ sh_binary {
 
 sh_binary {
 	name: "dspservice",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/dspservice",
 	filename: "dspservice",
 	soc_specific: true,
@@ -9418,7 +9418,7 @@ sh_binary {
 
 sh_binary {
 	name: "emservice",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/emservice",
 	filename: "emservice",
 	soc_specific: true,
@@ -9426,7 +9426,7 @@ sh_binary {
 
 sh_binary {
 	name: "factory.ssc",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/factory.ssc",
 	filename: "factory.ssc",
 	soc_specific: true,
@@ -9434,7 +9434,7 @@ sh_binary {
 
 sh_binary {
 	name: "hvdcp_opti",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hvdcp_opti",
 	filename: "hvdcp_opti",
 	soc_specific: true,
@@ -9442,7 +9442,7 @@ sh_binary {
 
 sh_binary {
 	name: "android.hardware.bluetooth@1.0-service-qti",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti",
 	filename: "android.hardware.bluetooth@1.0-service-qti",
 	sub_dir: "hw",
@@ -9451,7 +9451,7 @@ sh_binary {
 
 sh_binary {
 	name: "android.hardware.drm@1.3-service.widevine",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine",
 	filename: "android.hardware.drm@1.3-service.widevine",
 	sub_dir: "hw",
@@ -9460,7 +9460,7 @@ sh_binary {
 
 sh_binary {
 	name: "android.hardware.gnss@2.1-service-qti",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti",
 	filename: "android.hardware.gnss@2.1-service-qti",
 	sub_dir: "hw",
@@ -9469,7 +9469,7 @@ sh_binary {
 
 sh_binary {
 	name: "android.hardware.neuralnetworks@1.3-service-qti",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti",
 	filename: "android.hardware.neuralnetworks@1.3-service-qti",
 	sub_dir: "hw",
@@ -9478,7 +9478,7 @@ sh_binary {
 
 sh_binary {
 	name: "macloader",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/macloader",
 	filename: "macloader",
 	sub_dir: "hw",
@@ -9487,7 +9487,7 @@ sh_binary {
 
 sh_binary {
 	name: "nxp.android.hardware.nfc@1.2-service",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/nxp.android.hardware.nfc@1.2-service",
 	filename: "nxp.android.hardware.nfc@1.2-service",
 	sub_dir: "hw",
@@ -9496,7 +9496,7 @@ sh_binary {
 
 sh_binary {
 	name: "rild",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/rild",
 	filename: "rild",
 	sub_dir: "hw",
@@ -9505,7 +9505,7 @@ sh_binary {
 
 sh_binary {
 	name: "vendor.display.color@1.0-service",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/vendor.display.color@1.0-service",
 	filename: "vendor.display.color@1.0-service",
 	sub_dir: "hw",
@@ -9514,7 +9514,7 @@ sh_binary {
 
 sh_binary {
 	name: "vendor.qti.hardware.capabilityconfigstore@1.0-service",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service",
 	filename: "vendor.qti.hardware.capabilityconfigstore@1.0-service",
 	sub_dir: "hw",
@@ -9523,7 +9523,7 @@ sh_binary {
 
 sh_binary {
 	name: "vendor.qti.hardware.iop@2.0-service",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/vendor.qti.hardware.iop@2.0-service",
 	filename: "vendor.qti.hardware.iop@2.0-service",
 	sub_dir: "hw",
@@ -9532,7 +9532,7 @@ sh_binary {
 
 sh_binary {
 	name: "vendor.qti.hardware.perf@2.2-service",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.2-service",
 	filename: "vendor.qti.hardware.perf@2.2-service",
 	sub_dir: "hw",
@@ -9541,7 +9541,7 @@ sh_binary {
 
 sh_binary {
 	name: "vendor.qti.hardware.qseecom@1.0-service",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service",
 	filename: "vendor.qti.hardware.qseecom@1.0-service",
 	sub_dir: "hw",
@@ -9550,7 +9550,7 @@ sh_binary {
 
 sh_binary {
 	name: "vendor.qti.hardware.tui_comm@1.0-service-qti",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti",
 	filename: "vendor.qti.hardware.tui_comm@1.0-service-qti",
 	sub_dir: "hw",
@@ -9559,7 +9559,7 @@ sh_binary {
 
 sh_binary {
 	name: "vendor.samsung.hardware.thermal@1.0-service",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service",
 	filename: "vendor.samsung.hardware.thermal@1.0-service",
 	sub_dir: "hw",
@@ -9568,7 +9568,7 @@ sh_binary {
 
 sh_binary {
 	name: "ipacm-diag",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/ipacm-diag",
 	filename: "ipacm-diag",
 	soc_specific: true,
@@ -9576,7 +9576,7 @@ sh_binary {
 
 sh_binary {
 	name: "irsc_util",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/irsc_util",
 	filename: "irsc_util",
 	soc_specific: true,
@@ -9584,7 +9584,7 @@ sh_binary {
 
 sh_binary {
 	name: "loadalgo",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/loadalgo",
 	filename: "loadalgo",
 	soc_specific: true,
@@ -9592,7 +9592,7 @@ sh_binary {
 
 sh_binary {
 	name: "loc_launcher",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/loc_launcher",
 	filename: "loc_launcher",
 	soc_specific: true,
@@ -9600,7 +9600,7 @@ sh_binary {
 
 sh_binary {
 	name: "lowi-server",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/lowi-server",
 	filename: "lowi-server",
 	soc_specific: true,
@@ -9608,7 +9608,7 @@ sh_binary {
 
 sh_binary {
 	name: "npu_launcher",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/npu_launcher",
 	filename: "npu_launcher",
 	soc_specific: true,
@@ -9616,7 +9616,7 @@ sh_binary {
 
 sh_binary {
 	name: "pd-mapper",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/pd-mapper",
 	filename: "pd-mapper",
 	soc_specific: true,
@@ -9624,7 +9624,7 @@ sh_binary {
 
 sh_binary {
 	name: "pm-proxy",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/pm-proxy",
 	filename: "pm-proxy",
 	soc_specific: true,
@@ -9632,7 +9632,7 @@ sh_binary {
 
 sh_binary {
 	name: "pm-service",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/pm-service",
 	filename: "pm-service",
 	soc_specific: true,
@@ -9640,7 +9640,7 @@ sh_binary {
 
 sh_binary {
 	name: "pm_proxy_helper",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/pm_proxy_helper",
 	filename: "pm_proxy_helper",
 	soc_specific: true,
@@ -9648,7 +9648,7 @@ sh_binary {
 
 sh_binary {
 	name: "ppd",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/ppd",
 	filename: "ppd",
 	soc_specific: true,
@@ -9656,7 +9656,7 @@ sh_binary {
 
 sh_binary {
 	name: "qdcmss",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/qdcmss",
 	filename: "qdcmss",
 	soc_specific: true,
@@ -9664,7 +9664,7 @@ sh_binary {
 
 sh_binary {
 	name: "qrtr-ns",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/qrtr-ns",
 	filename: "qrtr-ns",
 	soc_specific: true,
@@ -9672,7 +9672,7 @@ sh_binary {
 
 sh_binary {
 	name: "qseecomd",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/qseecomd",
 	filename: "qseecomd",
 	soc_specific: true,
@@ -9680,7 +9680,7 @@ sh_binary {
 
 sh_binary {
 	name: "rmt_storage",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/rmt_storage",
 	filename: "rmt_storage",
 	soc_specific: true,
@@ -9688,7 +9688,7 @@ sh_binary {
 
 sh_binary {
 	name: "sscrpcd",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/sscrpcd",
 	filename: "sscrpcd",
 	soc_specific: true,
@@ -9696,7 +9696,7 @@ sh_binary {
 
 sh_binary {
 	name: "ssgtzd",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/ssgtzd",
 	filename: "ssgtzd",
 	soc_specific: true,
@@ -9704,7 +9704,7 @@ sh_binary {
 
 sh_binary {
 	name: "ssr_setup",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/ssr_setup",
 	filename: "ssr_setup",
 	soc_specific: true,
@@ -9712,7 +9712,7 @@ sh_binary {
 
 sh_binary {
 	name: "tftp_server",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/tftp_server",
 	filename: "tftp_server",
 	soc_specific: true,
@@ -9720,7 +9720,7 @@ sh_binary {
 
 sh_binary {
 	name: "thermal-engine",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/thermal-engine",
 	filename: "thermal-engine",
 	soc_specific: true,
@@ -9728,7 +9728,7 @@ sh_binary {
 
 sh_binary {
 	name: "time_daemon",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/time_daemon",
 	filename: "time_daemon",
 	soc_specific: true,
@@ -9736,7 +9736,7 @@ sh_binary {
 
 sh_binary {
 	name: "xtra-daemon",
-	owner: "",
+	owner: "samsung",
 	src: "proprietary/vendor/bin/xtra-daemon",
 	filename: "xtra-daemon",
 	soc_specific: true,
