@@ -281,13 +281,23 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.bluetooth.a2dp@1.0-impl \
     vendor.samsung.hardware.gnss@2.0-impl-sec \
     vulkan.adreno \
+    libBeauty_v4.camera.samsung \
     libC2D2 \
     libCB \
+    libDualCamBokehCapture.camera.samsung \
+    libFacePreProcessing.camera.samsung \
+    libFace_Landmark_API.camera.samsung \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
+    libHandGesture.camera.samsung \
+    libHprFace_GAE_api.camera.samsung \
+    libHpr_RecGAE_cvFeature_v1.0.camera.samsung \
+    libLocalTM_capture_core.camera.samsung \
     libOpenCL \
+    libOpenCv.camera.samsung \
     libQSEEComAPI \
+    libSEF.quram \
     libSceneDetector_v1.camera.samsung \
     libSecureUILib \
     libStDrvInt \
@@ -301,11 +311,15 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libarcsoft_multi_frame_video_hdr \
     libarcsoft_object_tracking \
+    libarcsoft_picportrait_video \
+    libarcsoft_super_night_raw \
     libaudcal \
     libaudioconfigstore \
+    libaudioparsers \
     libbatching \
     libbauthserver \
     libbauthtzcommon \
+    libbeautyshot.arcsoft \
     libbitmlengine \
     libbluetooth_audio_session_qti \
     libbthost_if \
@@ -347,9 +361,13 @@ PRODUCT_PACKAGES += \
     libdsutils \
     libdualcam_refocus_image \
     libegis_fp_normal_sensor_test \
+    libexifa.camera.samsung \
+    libface_landmark.arcsoft \
     libfastcvdsp_stub \
     libfastcvopt \
     libfloatingfeature \
+    libfocuspeaking \
+    libfocuspeaking_interface \
     libgarden \
     libgcs-calwrapper \
     libgcs-ipc \
@@ -362,15 +380,26 @@ PRODUCT_PACKAGES += \
     libgps.utils \
     libgpudataproducer \
     libgsl \
+    libhand_interaction.uniplugin@1.0 \
+    libhandgesture.arcsoft \
     libhdr_tm \
+    libhigh_dynamic_range_bokeh \
     libhta_hexagon_runtime \
     libhypermotion_core \
+    libhypermotion_interface \
     libidl \
+    libimage_enhancement.arcsoft \
+    libimagecodec_native.quram \
     libipebpsstriping \
     libizat_client_api \
     libizat_core \
     libjnihelper \
+    libjpegQtable_interface \
+    libjpegencoder_sw.unifunc \
     liblbs_core \
+    liblivefocus_capture_engine \
+    liblivefocus_preview_engine \
+    liblivefocus_preview_interface \
     libllvm-glnext \
     libllvm-qcom \
     libloc_api_v02 \
@@ -396,6 +425,7 @@ PRODUCT_PACKAGES += \
     liboemcrypto \
     libofflinelog \
     libops \
+    libpadm \
     libpdmapper \
     libpdnotifier \
     libperfconfig \
@@ -434,7 +464,10 @@ PRODUCT_PACKAGES += \
     libqti-perfd-client \
     libqti-perfd \
     libqti-util \
+    libqti_vndfwk_detect \
+    libqtigef \
     librpmb \
+    libscaler_hw.unifunc \
     libscenedetector.uniplugin@1.0 \
     libscveCommon \
     libscveCommon_stub \
@@ -449,13 +482,17 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libsdsprpc \
     libsec2qc_conversion \
+    libsecaudiocoreutils \
+    libsecaudioinfo \
     libsecnativefeature \
     libsecureui \
     libsecureui_svcsock \
+    libsegmentationeffect.uniplugin@1.0 \
     libsemnativecarrierfeature \
     libsensorlistener \
     libsensorndkbridge \
     libsensorslog \
+    libsmartfocus_interface \
     libsnap_vndk \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
@@ -463,9 +500,12 @@ PRODUCT_PACKAGES += \
     libsns_registry_skel \
     libsnsapi \
     libsnsdiaglog \
+    libsocial_image_enhancement.uniplugin@1.0 \
     libssc \
     libssc_default_listener \
     libssd \
+    libsuper_night_interface \
+    libswldc_capture_core.camera.samsung \
     libswregistrationalgo \
     libsynaFpSensorTestNwd \
     libsynergy_loc_api \
@@ -480,11 +520,18 @@ PRODUCT_PACKAGES += \
     libtriplecam_video_optical_zoom \
     libtrustedapploader \
     libuniplugin \
+    libvdis_core \
     libvdis_interface \
+    libvideobeauty.arcsoft \
+    libvideobeauty.uniplugin@1.0 \
+    libvideobeauty_interface \
     libxml \
     libclearkeycasplugin \
+    libsns_device_mode_skel \
+    libsns_low_lat_stream_skel \
     sensors.grip \
     sensors.ssc \
+    libasphere \
     libaudioeffectoffload \
     libaudiopreprocessing \
     libaudiosaplus_sec \
@@ -496,11 +543,15 @@ PRODUCT_PACKAGES += \
     libmysound \
     libmyspace \
     libplaybackrecorder \
+    libqcbassboost \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libqcreverb \
+    libqcvirt \
     libreverbwrapper \
     libsamsungSoundbooster_plus \
+    libshoebox \
     libswdap \
     libswspatializer \
     libvisualizer \
@@ -546,32 +597,26 @@ PRODUCT_PACKAGES += \
     lib_SamsungRec_07010 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
-    liba2dpoffload_vendor \
+    liba2dpoffload \
     libadm \
     libaudio_log_utils \
     libaudio_soundtrigger \
-    libbatterylistener_vendor \
-    libcirrusspkrprot_vendor \
-    libcomprcapture_vendor \
+    libbatterylistener \
+    libcirrusspkrprot \
+    libcomprcapture \
     libdrc \
-    libexthwplugin_vendor \
-    libhdmiedid_vendor \
-    libhdmipassthru_vendor \
-    libhfp_vendor \
-    libqtigef \
+    libexthwplugin \
+    libhdmiedid \
+    libhdmipassthru \
+    libhfp \
     librecordalive \
     libsamsungVoipResampler \
-    libsndmonitor_vendor \
-    libspkrprot_vendor \
+    libsndmonitor \
+    libspkrprot \
     libsurround_3mic_proc \
     libwfdaac_vendor \
     libwvhidl \
     libwvdrmengine \
-    libasphere \
-    libqcbassboost \
-    libqcreverb \
-    libqcvirt \
-    libshoebox \
     libvolumelistener \
     vendor.qti.hardware.audiohalext@1.0 \
     vendor.qti.memory.pasrmanager@1.0 \
@@ -591,14 +636,16 @@ PRODUCT_PACKAGES += \
     libMOTION \
     gatekeeper.mdfpp \
     lights.lito \
+    libDLInterface.camera.samsung \
+    libLocalTM_wrapper.camera.samsung \
     libSNPE \
     libSemDataProps \
     libSemTelephonyProps \
-    libc++_shared \
     libengmode15 \
     libengmode2lite \
     libengmode_client \
     libengmode_tlc \
+    libformatConverter.unifunc \
     libhexagon_nn_stub \
     libhta \
     libhypervintf \
@@ -608,6 +655,7 @@ PRODUCT_PACKAGES += \
     libloadalgo_stub \
     libmeters \
     libnanopb \
+    libnlnetmgr \
     libreffeature \
     libremosaiclib \
     libril_sem \
@@ -666,6 +714,8 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_skel \
     libscveT2T_skel \
     libsnpe_dsp_v66_domains_v2_skel \
+    libsns_device_mode_skel \
+    libsns_low_lat_stream_skel \
     CACertService \
     TimeService \
     com.qualcomm.qti.gpudrivers.lito.api30 \
