@@ -320,7 +320,7 @@ PRODUCT_PACKAGES += \
     libacdbrtac \
     libadiertac \
     libadreno_utils \
-    libimgproc_sw.unifunc@common \
+    libimgproc_sw.unifunc \
     libDeviceInfoProvider \
     libadsp_default_listener \
     libadsprpc \

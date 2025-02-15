@@ -3187,7 +3187,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libcamera_metadata",
-                "libimgproc_sw.unifunc@common",
+                "libimgproc_sw.unifunc",
                 "unihal_cutils@2.15",
                 "unihal_android",
                 "libc++",
@@ -3781,7 +3781,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libimgproc_sw.unifunc@common",
+    name: "libimgproc_sw.unifunc",
     owner: "samsung",
     strip: {
         none: true,
@@ -3789,7 +3789,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libimgproc_sw.unifunc@common.so",
+                "proprietary/vendor/lib64/libimgproc_sw.unifunc.so",
             ],
             shared_libs: [
                 "libutils",
