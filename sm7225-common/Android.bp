@@ -3657,20 +3657,8 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsmartfocusengine.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
-    compile_multilib: "both",
+    compile_multilib: "32",
     prefer: true,
     soc_specific: true,
 }
