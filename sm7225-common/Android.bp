@@ -244,6 +244,47 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libsavscmn",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libsavscmn.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libz",
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsavscmn.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libz",
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "com.qti.hvx.addconstant",
 	owner: "samsung",
 	strip: {
