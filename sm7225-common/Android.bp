@@ -3393,7 +3393,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libsmartfocusengine",
                 "libuniplugin",
                 "libc++",
                 "libc",
@@ -3630,31 +3629,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsmartfocusengine",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libsmartfocusengine.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
     prefer: true,
     soc_specific: true,
 }
