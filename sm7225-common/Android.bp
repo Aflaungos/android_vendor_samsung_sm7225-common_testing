@@ -3411,7 +3411,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libsmartfocusengine",
                 "libuniplugin",
                 "libc++",
                 "libc",
