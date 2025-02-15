@@ -3369,7 +3369,6 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libsrib_humanaware_engine.camera.samsung",
                 "libsrib_CNNInterface.camera.samsung",
-                "libHumanSegVideoModel_Vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -3923,30 +3922,6 @@ cc_prebuilt_library_shared {
                 "libOpenCv.camera.samsung",
                 "libc++",
                 "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libHumanSegVideoModel_Vendor",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libHumanSegVideoModel_Vendor.so",
-            ],
-            shared_libs: [
-                "libc++",
                 "libc",
                 "libm",
                 "libdl",
