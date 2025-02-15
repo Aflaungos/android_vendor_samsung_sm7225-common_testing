@@ -3367,8 +3367,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libsrib_humanaware_engine.camera.samsung",
-                "libsrib_CNNInterface.camera.samsung",
                 "libc++",
                 "libc",
                 "libm",
@@ -3896,59 +3894,6 @@ cc_prebuilt_library_shared {
                 "android.hardware.graphics.mapper@4.0",
                 "unihal_cutils",
                 "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsrib_CNNInterface.camera.samsung",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsrib_CNNInterface.camera.samsung.so",
-            ],
-            shared_libs: [
-                "libOpenCv.camera.samsung",
-                "libc++",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsrib_humanaware_engine.camera.samsung",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsrib_humanaware_engine.camera.samsung.so",
-            ],
-            shared_libs: [
-                "libsrib_CNNInterface.camera.samsung",
-                "libOpenCv.camera.samsung",
-                "libc++",
-                "liblog",
                 "libc",
                 "libm",
                 "libdl",
