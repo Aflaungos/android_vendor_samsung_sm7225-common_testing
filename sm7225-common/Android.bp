@@ -3188,7 +3188,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libcamera_metadata",
                 "libimgproc_sw.unifunc@common",
-                "unihal_cutils",
+                "unihal_cutils@2.15",
                 "unihal_android",
                 "libc++",
                 "libc",
@@ -3338,7 +3338,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libui",
-                "unihal_cutils",
+                "unihal_cutils@2.15",
                 "unihal_android",
                 "libcdsprpc",
                 "libc++",
@@ -3794,36 +3794,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libcutils",
-                "unihal_cutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "unihal_cutils",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/unihal_cutils.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libsync",
+                "unihal_cutils@2.15",
                 "libc++",
                 "libc",
                 "libm",
@@ -3866,7 +3837,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.graphics.mapper@2.1",
                 "android.hardware.graphics.mapper@3.0",
                 "android.hardware.graphics.mapper@4.0",
-                "unihal_cutils",
+                "unihal_cutils@2.15",
                 "libc++",
                 "libc",
                 "libm",
@@ -3946,7 +3917,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libui",
                 "liblog",
-                "unihal_cutils",
+                "unihal_cutils@2.15",
                 "unihal_android",
                 "libc++",
                 "libc",
