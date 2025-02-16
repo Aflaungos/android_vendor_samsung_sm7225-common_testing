@@ -3873,7 +3873,6 @@ cc_prebuilt_library_shared {
                 "libui",
                 "liblog",
                 "unihal_cutils@2.15",
-                "unihal_android",
                 "libc++",
                 "libc",
                 "libm",
