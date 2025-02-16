@@ -612,7 +612,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.bluetooth@2.0 \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.thermal@1.0 \
-    audio.primary.lito \
     lib_SamsungRec_07010 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
