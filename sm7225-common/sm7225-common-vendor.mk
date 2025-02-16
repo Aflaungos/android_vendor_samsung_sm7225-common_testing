@@ -626,7 +626,7 @@ PRODUCT_PACKAGES += \
     libdrc \
     libexthwplugin \
     libhdmiedid \
-    libhdmipassthru \
+    libhdmipassthru_vendor \
     libhfp \
     librecordalive \
     libsamsungVoipResampler \
