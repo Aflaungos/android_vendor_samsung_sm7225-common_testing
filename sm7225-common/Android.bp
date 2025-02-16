@@ -220,6 +220,24 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
+prebuilt_rfsa {
+    name: "libsns_device_mode_skel",
+    filename: "libsns_device_mode_skel.so",
+    owner: "xiaomi",
+    src: "proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libsns_low_lat_stream_skel",
+    filename: "libsns_low_lat_stream_skel.so",
+    owner: "xiaomi",
+    src: "proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
 cc_prebuilt_library_shared {
 	name: "com.qti.eisv3",
 	owner: "samsung",
