@@ -676,7 +676,6 @@ PRODUCT_PACKAGES += \
     libreffeature \
     libremosaiclib \
     libril_sem \
-    librilutils \
     libsdmextension \
     libsec-ril \
     libsecril-client_vendor \

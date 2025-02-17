@@ -10381,24 +10381,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "librilutils",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/librilutils.so"],
-			shared_libs: ["libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libsdmextension",
 	owner: "samsung",
 	strip: {
@@ -11226,12 +11208,21 @@ sh_binary {
 	soc_specific: true,
 }
 
-sh_binary {
+cc_prebuilt_binary {
 	name: "rild",
 	owner: "samsung",
-	src: "proprietary/vendor/bin/hw/rild",
-	filename: "rild",
-	sub_dir: "hw",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/rild"],
+			shared_libs: ["libcutils", "liblog", "libril_sem", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
 	soc_specific: true,
 }
 
