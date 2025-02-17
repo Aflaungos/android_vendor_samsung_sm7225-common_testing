@@ -11147,14 +11147,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "emservice",
-	owner: "samsung",
-	src: "proprietary/vendor/bin/emservice",
-	filename: "emservice",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "factory.ssc",
 	owner: "samsung",
 	src: "proprietary/vendor/bin/factory.ssc",
