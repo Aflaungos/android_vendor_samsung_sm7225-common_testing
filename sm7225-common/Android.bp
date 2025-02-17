@@ -60,6 +60,32 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libFace_Landmark_API.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libFace_Landmark_API.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "com.qti.eeprom.sec2qcconversion",
 	owner: "samsung",
 	strip: {
