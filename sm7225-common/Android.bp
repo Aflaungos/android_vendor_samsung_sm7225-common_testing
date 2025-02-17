@@ -7,8 +7,6 @@ soong_namespace {
 		"device/samsung/sm7225-common",
 		"hardware/qcom-caf/sm8250",
 		"hardware/qcom-caf/wlan",
-                "hardware/qcom-caf/common",
-                "hardware/qcom-caf/common/libqti-perfd-client",
 		"hardware/samsung",
 		"vendor/qcom/opensource/dataservices",
 		"vendor/qcom/opensource/display",
@@ -33,6 +31,27 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "both",
 	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libqti-perfd-client",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libqti-perfd-client.so"],
+			shared_libs: ["libcutils", "libutils", "liblog", "vendor.qti.hardware.perf@2.2", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libqti-perfd-client.so"],
+			shared_libs: ["libcutils", "libutils", "liblog", "vendor.qti.hardware.perf@2.2", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
 }
@@ -11268,12 +11287,21 @@ sh_binary {
 	soc_specific: true,
 }
 
-sh_binary {
+cc_prebuilt_binary {
 	name: "vendor.qti.hardware.perf@2.2-service",
 	owner: "samsung",
-	src: "proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.2-service",
-	filename: "vendor.qti.hardware.perf@2.2-service",
-	sub_dir: "hw",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.2-service"],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware_legacy", "libhardware", "libhidlbase", "vendor.qti.hardware.perf@2.0", "vendor.qti.hardware.perf@2.1", "vendor.qti.hardware.perf@2.2", "libperfconfig", "libperfgluelayer", "libqti-perfd-client", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
 	soc_specific: true,
 }
 
