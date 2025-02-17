@@ -2837,6 +2837,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libdl",
                 "libHprFace_GAE_api.camera.samsung",
+		"libFace_Landmark_API.camera.samsung",
                 "libcutils",
                 "libbeautyshot.arcsoft",
                 "libc++",
