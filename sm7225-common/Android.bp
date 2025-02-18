@@ -2668,11 +2668,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcamera_nn_stub.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcdsprpc", "libqdMetaData", "libhardware", "libc", "libm", "libdl", ],
+			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "android.hardware.graphics.allocator@3.0", "android.hardware.graphics.common@1.1", "android.hardware.graphics.mapper@3.0", "android.hardware.graphics.mapper@2.0", "android.hardware.graphics.mapper@2.1", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "vendor.qti.hardware.display.allocator@3.0", "vendor.qti.hardware.display.mapper@2.0", "vendor.qti.hardware.display.mapper@3.0", "libcamera_metadata", "libutils", "libqti_vndfwk_detect", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libcdsprpc", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamera_nn_stub.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcdsprpc", "libqdMetaData", "libhardware", "libc", "libm", "libdl", ],
+			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "android.hardware.graphics.allocator@3.0", "android.hardware.graphics.common@1.1", "android.hardware.graphics.mapper@3.0", "android.hardware.graphics.mapper@2.0", "android.hardware.graphics.mapper@2.1", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "vendor.qti.hardware.display.allocator@3.0", "vendor.qti.hardware.display.mapper@2.0", "vendor.qti.hardware.display.mapper@3.0", "libcamera_metadata", "libutils", "libqti_vndfwk_detect", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libcdsprpc", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -11355,12 +11355,21 @@ sh_binary {
 	soc_specific: true,
 }
 
-sh_binary {
+cc_prebuilt_binary {
 	name: "vendor.samsung.hardware.thermal@1.0-service",
 	owner: "samsung",
-	src: "proprietary/vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service",
-	filename: "vendor.samsung.hardware.thermal@1.0-service",
-	sub_dir: "hw",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service"],
+			shared_libs: ["libbase", "libutils", "libcutils", "libhidlbase", "liblog", "libhardware", "libcamera_metadata", "android.hardware.thermal@1.0", "android.hardware.thermal@2.0", "vendor.samsung.hardware.thermal@1.0", "android.frameworks.cameraservice.service@2.0", "android.frameworks.cameraservice.service@2.1", "libhypervintf", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
 	soc_specific: true,
 }
 
