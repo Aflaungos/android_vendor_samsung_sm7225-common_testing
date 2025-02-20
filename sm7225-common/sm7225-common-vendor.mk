@@ -638,11 +638,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.audiohalext@1.0 \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-impl \
     com.qti.stats.aec \
     com.qti.stats.af \
     com.qti.stats.awb \
