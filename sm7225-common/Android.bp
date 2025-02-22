@@ -308,27 +308,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdisplaydebug",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libdisplaydebug.so"],
-			shared_libs: ["libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libdisplaydebug.so"],
-			shared_libs: ["libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libc2dcolorconvert",
     owner: "samsung",
     target: {
