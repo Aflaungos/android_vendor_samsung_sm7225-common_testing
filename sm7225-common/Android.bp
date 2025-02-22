@@ -331,9 +331,12 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libdisplayconfig.qti",
     owner: "samsung",
+    strip: {
+	    none: true,
+    },
     target: {
-        android_arm: { srcs: [ "vendor/lib/libdisplayconfig.qti.so" ] },
-        android_arm64: { srcs: [ "vendor/lib64/libdisplayconfig.qti.so" ] }
+        android_arm: { srcs: [ "proprietary/vendor/lib/libdisplayconfig.qti.so" ] },
+        android_arm64: { srcs: [ "proprietary/vendor/lib64/libdisplayconfig.qti.so" ] }
     },
     compile_multilib: "both",
     check_elf_files: false,
@@ -346,8 +349,8 @@ cc_prebuilt_library_shared {
     name: "libc2dcolorconvert",
     owner: "samsung",
     target: {
-        android_arm: { srcs: [ "vendor/lib/libc2dcolorconvert.so" ] },
-        android_arm64: { srcs: [ "vendor/lib64/libc2dcolorconvert.so" ] }
+        android_arm: { srcs: [ "proprietary/vendor/lib/libc2dcolorconvert.so" ] },
+        android_arm64: { srcs: [ "proprietary/vendor/lib64/libc2dcolorconvert.so" ] }
     },
     compile_multilib: "both",
     check_elf_files: false,
