@@ -119,6 +119,47 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libI420colorconvert",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libI420colorconvert.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libcutils",
+                "libmm-color-convertor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libI420colorconvert.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libcutils",
+                "libmm-color-convertor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "com.qti.eeprom.sec2qcconversion",
 	owner: "samsung",
 	strip: {
@@ -211,6 +252,111 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmm-color-convertor",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmm-color-convertor.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmm-color-convertor.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libdrmutils",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libdrmutils.so"],
+			shared_libs: ["libdrm", "libdisplaydebug", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libdrmutils.so"],
+			shared_libs: ["libdrm", "libdisplaydebug", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libdisplaydebug",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libdisplaydebug.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libdisplaydebug.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdisplayconfig.qti",
+    owner: "samsung",
+    target: {
+        android_arm: { srcs: [ "vendor/lib/libdisplayconfig.qti.so" ] },
+        android_arm64: { srcs: [ "vendor/lib64/libdisplayconfig.qti.so" ] }
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libc2dcolorconvert",
+    owner: "samsung",
+    target: {
+        android_arm: { srcs: [ "vendor/lib/libc2dcolorconvert.so" ] },
+        android_arm64: { srcs: [ "vendor/lib64/libc2dcolorconvert.so" ] }
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "com.samsung.sensor.s5kjn1",
 	owner: "samsung",
 	strip: {
@@ -282,7 +428,7 @@ cc_prebuilt_library_shared {
 prebuilt_rfsa {
     name: "libsns_device_mode_skel",
     filename: "libsns_device_mode_skel.so",
-    owner: "xiaomi",
+    owner: "samsung",
     src: "proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
@@ -291,7 +437,7 @@ prebuilt_rfsa {
 prebuilt_rfsa {
     name: "libsns_low_lat_stream_skel",
     filename: "libsns_low_lat_stream_skel.so",
-    owner: "xiaomi",
+    owner: "samsung",
     src: "proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
