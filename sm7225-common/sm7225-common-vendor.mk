@@ -279,8 +279,6 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     libI420colorconvert \
     libc2dcolorconvert \
-    libdisplayconfig.qti \
-    libdisplaydebug \
     libmm-color-convertor \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
