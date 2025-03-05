@@ -4471,11 +4471,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdisplayqos.so"],
-			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libdisplaydebug", "libtinyxml2_1", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdisplayqos.so"],
-			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libdisplaydebug", "libtinyxml2_1", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -11156,15 +11156,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_vendor.qti.hardware.display.composer-service.xml",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "vendor.samsung.hardware.thermal@1.0-manifest.xml",
 	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml",
@@ -11302,44 +11293,21 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "vendor.display.color@1.0-service",
-    owner: "samsung",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.display.color@1.0-service",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libbase",
-                "libutils",
-                "libbinder",
-                "libhardware_legacy",
-                "libhardware",
-                "libhidlbase",
-                "vendor.display.color@1.0",
-                "vendor.display.color@1.1",
-                "vendor.display.color@1.2",
-                "vendor.display.color@1.3",
-                "vendor.display.color@1.4",
-                "vendor.display.color@1.5",
-                "vendor.display.postproc@1.0",
-                "libsdm-disp-vndapis",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
+	name: "vendor.display.color@1.0-service",
+	owner: "samsung",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.display.color@1.0-service"],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libbinder", "libhardware_legacy", "libhardware", "libhidlbase", "vendor.display.color@1.0", "vendor.display.color@1.1", "vendor.display.color@1.2", "vendor.display.color@1.3", "vendor.display.color@1.4", "vendor.display.color@1.5", "vendor.display.postproc@1.0", "libsdm-disp-vndapis", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
 }
 
 sh_binary {
