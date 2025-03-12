@@ -11128,7 +11128,7 @@ prebuilt_etc {
 }
 
 prebuilt_etc_xml {
-    name: "vendor.qti.hardware.display.allocator-service.xml",
+    name: "manifest_vendor.qti.hardware.display.allocator-service",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
