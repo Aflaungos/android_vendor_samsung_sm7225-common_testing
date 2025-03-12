@@ -725,7 +725,6 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     nxp.android.hardware.nfc@1.2-service.xml \
     vendor.samsung.hardware.thermal@1.0-manifest.xml \
-    manifest_vendor.qti.hardware.display.composer-service \
     manifest_vendor.qti.hardware.display.allocator-service \
     adpl \
     adsprpcd \
