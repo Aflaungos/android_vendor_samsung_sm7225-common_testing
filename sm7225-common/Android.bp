@@ -11119,14 +11119,6 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-    name: "vendor.qti.hardware.display.composer-service.xml",
-    src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    vendor: true,
-}
-
 prebuilt_etc {
     name: "vendor.qti.hardware.display.allocator-service.rc",
     src: "proprietary/vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc",
