@@ -5373,7 +5373,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libgnss.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libloc_core", "libgps.utils", "libsemnativecarrierfeature", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libutils", "libcutils", "liblog", "libloc_core", "libgps.utils", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgnss.so"],
