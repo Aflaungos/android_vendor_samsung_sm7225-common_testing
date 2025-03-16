@@ -308,6 +308,13 @@ PRODUCT_PACKAGES += \
     libI420colorconvert \
     libc2dcolorconvert \
     libmm-color-convertor \
+    audio.primary.lito \
+    camera.device@1.0-impl \
+    camera.device@3.2-impl \
+    camera.device@3.3-impl \
+    camera.device@3.4-impl \
+    camera.device@3.5-impl \
+    libengmode_server \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
