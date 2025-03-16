@@ -5307,7 +5307,7 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgps.utils.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libprocessgroup", "libsemnativecarrierfeature", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libutils", "libcutils", "liblog", "libprocessgroup", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -7407,7 +7407,6 @@ cc_prebuilt_library_shared {
      compile_multilib: "64",
      prefer: true,
      soc_specific: true,
-     allow_undefined_symbols: true,
  }
  
  cc_prebuilt_library_shared {
@@ -7443,7 +7442,6 @@ cc_prebuilt_library_shared {
          },
      },
      compile_multilib: "64",
-     allow_undefined_symbols: true,
      prefer: true,
      soc_specific: true,
 }
@@ -7519,7 +7517,6 @@ cc_prebuilt_library_shared {
          },
      },
      compile_multilib: "64",
-     allow_undefined_symbols: true,
      prefer: true,
      soc_specific: true,
  }
@@ -11073,7 +11070,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -11151,7 +11147,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
