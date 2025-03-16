@@ -10028,8 +10028,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "liba2dpoffload_vendor",
-	stem: "liba2dpoffload",
+	name: "liba2dpoffload",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -10101,8 +10100,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbatterylistener_vendor",
-	stem: "libbatterylistener",
+	name: "libbatterylistener",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -10120,8 +10118,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcirrusspkrprot_vendor",
-	stem: "libcirrusspkrprot",
+	name: "libcirrusspkrprot",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -10139,8 +10136,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcomprcapture_vendor",
-	stem: "libcomprcapture",
+	name: "libcomprcapture",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -10176,8 +10172,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libexthwplugin_vendor",
-	stem: "libexthwplugin",
+	name: "libexthwplugin",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -10195,8 +10190,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhdmiedid_vendor",
-	stem: "libhdmiedid",
+	name: "libhdmiedid",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -10214,8 +10208,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhfp_vendor",
-	stem: "libhfp",
+	name: "libhfp",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -10287,8 +10280,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsndmonitor_vendor",
-	stem: "libsndmonitor",
+	name: "libsndmonitor",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -10306,8 +10298,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libspkrprot_vendor",
-	stem: "libspkrprot",
+	name: "libspkrprot",
 	owner: "samsung",
 	strip: {
 		none: true,
