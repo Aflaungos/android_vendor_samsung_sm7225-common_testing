@@ -12291,14 +12291,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "ssgtzd",
-	owner: "samsung",
-	src: "proprietary/vendor/bin/ssgtzd",
-	filename: "ssgtzd",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "ssr_setup",
 	owner: "samsung",
 	src: "proprietary/vendor/bin/ssr_setup",
