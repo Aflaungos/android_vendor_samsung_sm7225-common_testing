@@ -314,12 +314,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     camera.unihal.default \
     com.qti.chi.override \
-    libnetmgr_datapath_proxy \
-    libnetmgr_sscm3 \
-    libnetmgr_utils \
-    libnetmgrmodemproxy \
-    libnetmgrportutils \
-    libnetmgrxfrmutils \
     fingerprint.default \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.0-impl \
@@ -332,7 +326,6 @@ PRODUCT_PACKAGES += \
     libBeauty_v4.camera.samsung \
     libC2D2 \
     libCB \
-    libshsc \
     libDualCamBokehCapture.camera.samsung \
     libFacePreProcessing.camera.samsung \
     libFace_Landmark_API.camera.samsung \
@@ -733,12 +726,9 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.hyper-V2-ndk_platform \
     vendor.samsung.hardware.light-V1-ndk_platform \
     vendor.samsung.hardware.nfc@2.0 \
-    vendor.samsung.hardware.radio-V1-ndk \
-    vendor.samsung.hardware.radio.bridge-V1-ndk \
-    vendor.samsung.hardware.radio.channel-V1-ndk \
-    vendor.samsung.hardware.radio.data-V1-ndk \
-    vendor.samsung.hardware.radio.messaging-V1-ndk \
-    vendor.samsung.hardware.radio.sim-V1-ndk \
+    vendor.samsung.hardware.radio.bridge@2.0 \
+    vendor.samsung.hardware.radio.bridge@2.1 \
+    vendor.samsung.hardware.radio.channel@2.0 \
     capi_v2_aptX_CLHDAD_Encoder \
     libapps_mem_heap \
     libbitml_nsp_skel \
@@ -761,7 +751,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti-hta.xml \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
-    vendor.samsung.hardware.radio.exclude.qcom.xml \
     nxp.android.hardware.nfc@1.2-service.xml \
     vendor.samsung.hardware.thermal@1.0-manifest.xml \
     adpl \
