@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm7225-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -326,6 +327,18 @@ PRODUCT_PACKAGES += \
     libBeauty_v4.camera.samsung \
     libC2D2 \
     libCB \
+    libcodec2_sec_aacdec \
+    libcodec2_sec_aacenc \
+    libcodec2_sec_amrnbdec \
+    libcodec2_sec_amrwbdec \
+    libcodec2_sec_flacdec \
+    libcodec2_sec_imadec \
+    libcodec2_sec_mp3dec \
+    libcodec2_sec_mp4vdec \
+    libcodec2_sec_soft_common \
+    libcodec2_sec_vc1dec \
+    libcodec2_soft_ac4dec \
+    libcodec2_soft_eac3dec \
     libDualCamBokehCapture.camera.samsung \
     libFacePreProcessing.camera.samsung \
     libFace_Landmark_API.camera.samsung \
@@ -768,6 +781,7 @@ PRODUCT_PACKAGES += \
     nxp.android.hardware.nfc@1.2-service \
     rild \
     vendor.display.color@1.0-service \
+    vendor.qti.media.c2@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.iop@2.0-service \
     vendor.qti.hardware.perf@2.2-service \
