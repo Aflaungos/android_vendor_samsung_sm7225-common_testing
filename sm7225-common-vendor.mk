@@ -11,14 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/samsung/sm7225-common/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/samsung/sm7225-common/proprietary/vendor/etc/audconf/OPEN/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Bluetooth_cal.acdb \
-    vendor/samsung/sm7225-common/proprietary/vendor/etc/audconf/OPEN/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/General_cal.acdb \
-    vendor/samsung/sm7225-common/proprietary/vendor/etc/audconf/OPEN/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Global_cal.acdb \
-    vendor/samsung/sm7225-common/proprietary/vendor/etc/audconf/OPEN/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Handset_cal.acdb \
-    vendor/samsung/sm7225-common/proprietary/vendor/etc/audconf/OPEN/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Hdmi_cal.acdb \
-    vendor/samsung/sm7225-common/proprietary/vendor/etc/audconf/OPEN/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Headset_cal.acdb \
-    vendor/samsung/sm7225-common/proprietary/vendor/etc/audconf/OPEN/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Speaker_cal.acdb \
-    vendor/samsung/sm7225-common/proprietary/vendor/etc/audconf/OPEN/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/workspaceFile.qwsp \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -91,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc \
@@ -124,6 +117,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/sec_config_oem:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config_oem \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm.policy \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/sensors/config/atoll_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/atoll_default_sensors.json \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/sensors/config/bitra_lsm6dsm_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bitra_lsm6dsm_0.json \
@@ -640,6 +635,12 @@ PRODUCT_PACKAGES += \
     libengmode_tlc \
     libfocuspeaking_interface \
     libformatConverter.unifunc \
+    libqcodec2_base \
+    libqcodec2_basecodec \
+    libqcodec2_core \
+    libqcodec2_platform \
+    libqcodec2_utils \
+    libqcodec2_v4l2codec \
     libhexagon_nn_stub \
     libhta \
     libhypervintf \
@@ -777,6 +778,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor.qti.media.c2@1.0-service \
     vendor.samsung.hardware.thermal@1.0-service \
     ipacm-diag \
     irsc_util \
