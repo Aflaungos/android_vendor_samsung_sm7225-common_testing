@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm7225-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
@@ -279,7 +280,6 @@ PRODUCT_PACKAGES += \
     com.samsung.node.uniplugin_capture \
     com.samsung.node.uniplugin_preview \
     com.samsung.node.uniplugin_recording \
-    libstagefright_foundation_vendor \
     com.samsung.node.uniplugin_vdis \
     com.ss.stats.aec \
     com.ss.stats.af \
@@ -330,18 +330,6 @@ PRODUCT_PACKAGES += \
     libBeauty_v4.camera.samsung \
     libC2D2 \
     libCB \
-    libcodec2_sec_aacdec \
-    libcodec2_sec_aacenc \
-    libcodec2_sec_amrnbdec \
-    libcodec2_sec_amrwbdec \
-    libcodec2_sec_flacdec \
-    libcodec2_sec_imadec \
-    libcodec2_sec_mp3dec \
-    libcodec2_sec_mp4vdec \
-    libcodec2_sec_soft_common \
-    libcodec2_sec_vc1dec \
-    libcodec2_soft_ac4dec \
-    libcodec2_soft_eac3dec \
     libDualCamBokehCapture.camera.samsung \
     libFacePreProcessing.camera.samsung \
     libFace_Landmark_API.camera.samsung \
@@ -705,6 +693,12 @@ PRODUCT_PACKAGES += \
     libengmode_client \
     libengmode_tlc \
     libformatConverter.unifunc \
+    libqcodec2_base \
+    libqcodec2_basecodec \
+    libqcodec2_core \
+    libqcodec2_platform \
+    libqcodec2_utils \
+    libqcodec2_v4l2codec \
     libhexagon_nn_stub \
     libhta \
     libhypervintf \
@@ -764,6 +758,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     com.qualcomm.qti.gpudrivers.lito.api30 \
     android.hardware.gnss@2.1-service-qti.xml \
+    c2_manifest_vendor.xml \
     android.hardware.neuralnetworks@1.3-service-qti-hta.xml \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
