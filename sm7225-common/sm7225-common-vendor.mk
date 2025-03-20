@@ -279,6 +279,7 @@ PRODUCT_PACKAGES += \
     com.samsung.node.uniplugin_capture \
     com.samsung.node.uniplugin_preview \
     com.samsung.node.uniplugin_recording \
+    libstagefright_foundation_vendor \
     com.samsung.node.uniplugin_vdis \
     com.ss.stats.aec \
     com.ss.stats.af \
