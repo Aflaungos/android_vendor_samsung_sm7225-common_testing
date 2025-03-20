@@ -11865,6 +11865,7 @@ cc_prebuilt_binary {
 	},
 	prefer: true,
 	relative_install_path: "hw",
+        check_elf_files: false,
 	soc_specific: true,
 }
 
