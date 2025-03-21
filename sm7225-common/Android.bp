@@ -147,6 +147,144 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libEventFinder.camera.samsung",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libEventFinder.camera.samsung.so"],
+			shared_libs: ["libOpenCv.camera.samsung", "libc++", "liblog", "libm", "libdl", "libc", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libEventFinder.camera.samsung.so"],
+			shared_libs: ["libOpenCv.camera.samsung", "libc++", "liblog", "libm", "libdl", "libc", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libdualcam_refocus_video",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libdualcam_refocus_video.so"],
+			shared_libs: ["libmpbase", "liblog", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	allow_undefined_symbols: true,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libLocalTM_wrapper.camera.samsung",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libLocalTM_wrapper.camera.samsung.so"],
+			shared_libs: ["libLocalTM_capture_core.camera.samsung", "libc++", "liblog", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libheifcapture",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libheifcapture.so"],
+			shared_libs: ["libcutils", "libutils", "liblog", "libmediandk", "libnativewindow", "libsavscmn", "libbase", "libstagefright_foundation_vendor", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libheifcapture.so"],
+			shared_libs: ["libcutils", "libutils", "liblog", "libmediandk", "libnativewindow", "libsavscmn", "libbase", "libstagefright_foundation_vendor", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	allow_undefined_symbols: true,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "netmgrd",
+	owner: "samsung",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/netmgrd"],
+			shared_libs: ["libdsutils", "libconfigdb", "libdiag", "libcutils", "liblog", "libnetutils", "librmnetctl", "libnlnetmgr", "libnetmgr", "libnetmgr_common", "libqmiservices", "libqmi_common_so", "libqmi_cci", "libqmi_client_qmux", "libqmi_client_helper", "libqmi", "libutils", "libhidlbase", "libandroid_net", "android.system.net.netd@1.1", "libqti_vndfwk_detect", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsegmentationeffect_capture.uniplugin@1.0",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libsegmentationeffect_capture.uniplugin@1.0.so"],
+			shared_libs: ["liblog", "libcutils", "libsrib_humanaware_engine.camera.samsung", "libsrib_CNNInterface.camera.samsung", "libHumanSegVideoModel_Vendor", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libsegmentationeffect_capture.uniplugin@1.0.so"],
+			shared_libs: ["liblog", "libcutils", "libsrib_humanaware_engine.camera.samsung", "libsrib_CNNInterface.camera.samsung", "libHumanSegVideoModel_Vendor", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	allow_undefined_symbols: true,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libvideobeauty_capture.uniplugin@1.0",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libvideobeauty_capture.uniplugin@1.0.so"],
+			shared_libs: ["liblog", "libcutils", "libvideobeauty.arcsoft", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libvideobeauty_capture.uniplugin@1.0.so"],
+			shared_libs: ["liblog", "libcutils", "libvideobeauty.arcsoft", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.dynamicdds@1.0",
     owner: "samsung",
     strip: {
@@ -308,6 +446,129 @@ cc_prebuilt_binary {
     },
     compile_multilib: "64",
     check_elf_files: false,
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "ks",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/ks",
+            ],
+            shared_libs: [
+                "libc",
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libc++",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "shsusrd",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/shsusrd",
+            ],
+            shared_libs: [
+                "libcrypto",
+                "libssl",
+                "libqmiservices",
+                "libqmi_cci",
+                "libqmi_common_so",
+                "libqmi_client_qmux",
+                "libqmi_client_helper",
+                "libdsutils",
+                "libconfigdb",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "ssgtzd",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/ssgtzd",
+            ],
+            shared_libs: [
+                "libqcbor",
+                "libminksocket",
+                "libminkdescriptor",
+                "liblog",
+                "libjsoncpp",
+                "libcutils",
+                "libQSEEComAPI",
+                "libcurl",
+                "libqmi",
+                "libqmi_common_so",
+                "libqmi_csi",
+                "libqmi_cci",
+                "libdsi_netctrl",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "qrtr-cfg",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/qrtr-cfg",
+            ],
+            shared_libs: [
+                "libqrtr",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
     strip: {
         none: true,
     },

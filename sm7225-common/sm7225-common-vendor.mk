@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm7225-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
@@ -251,6 +253,17 @@ PRODUCT_PACKAGES += \
     com.samsung.sensor.imx355_front \
     com.samsung.sensor.s5kjn1 \
     com.qti.camx.chiiqutils \
+    netmgrd \
+    ks \
+    qrtr-cfg \
+    shsusrd \
+    ssgtzd \
+    libEventFinder.camera.samsung \
+    libLocalTM_wrapper.camera.samsung \
+    libheifcapture \
+    libsegmentationeffect_capture.uniplugin@1.0 \
+    libvideobeauty_capture.uniplugin@1.0 \
+    libdualcam_refocus_video \
     com.qti.eisv2 \
     com.qti.eisv3 \
     com.qti.hvx.addconstant \
