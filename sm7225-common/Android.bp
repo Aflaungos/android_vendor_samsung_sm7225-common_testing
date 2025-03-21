@@ -185,28 +185,6 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-	name: "libheifcapture",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libheifcapture.so"],
-			shared_libs: ["libcutils", "libutils", "liblog", "libmediandk", "libnativewindow", "libsavscmn", "libbase", "libstagefright_foundation_vendor", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libheifcapture.so"],
-			shared_libs: ["libcutils", "libutils", "liblog", "libmediandk", "libnativewindow", "libsavscmn", "libbase", "libstagefright_foundation_vendor", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	allow_undefined_symbols: true,
-	prefer: true,
-	soc_specific: true,
-}
-
 cc_prebuilt_binary {
 	name: "netmgrd",
 	owner: "samsung",
