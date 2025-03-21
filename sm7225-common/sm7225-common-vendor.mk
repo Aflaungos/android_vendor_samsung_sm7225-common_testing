@@ -261,7 +261,6 @@ PRODUCT_PACKAGES += \
     libEventFinder.camera.samsung \
     libLocalTM_wrapper.camera.samsung \
     libheifcapture \
-    libsegmentationeffect_capture.uniplugin@1.0 \
     libvideobeauty_capture.uniplugin@1.0 \
     libdualcam_refocus_video \
     com.qti.eisv2 \

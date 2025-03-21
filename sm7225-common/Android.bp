@@ -225,28 +225,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsegmentationeffect_capture.uniplugin@1.0",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsegmentationeffect_capture.uniplugin@1.0.so"],
-			shared_libs: ["liblog", "libcutils", "libsrib_humanaware_engine.camera.samsung", "libsrib_CNNInterface.camera.samsung", "libHumanSegVideoModel_Vendor", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsegmentationeffect_capture.uniplugin@1.0.so"],
-			shared_libs: ["liblog", "libcutils", "libsrib_humanaware_engine.camera.samsung", "libsrib_CNNInterface.camera.samsung", "libHumanSegVideoModel_Vendor", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	allow_undefined_symbols: true,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libvideobeauty_capture.uniplugin@1.0",
 	owner: "samsung",
 	strip: {
@@ -4274,6 +4252,18 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
+	android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libvideobeauty.arcsoft.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libvideobeauty.arcsoft.so",
@@ -4287,7 +4277,7 @@ cc_prebuilt_library_shared {
             ],
         },
     },
-    compile_multilib: "64",
+    compile_multilib: "both",
     prefer: true,
     soc_specific: true,
 }
