@@ -318,6 +318,7 @@ PRODUCT_PACKAGES += \
     libGLESv1_CM_adreno \
     libGLESv2_adreno \
     libq3dtools_adreno \
+    libsavscmn \
     libq3dtools_esx \
     libI420colorconvert \
     libc2dcolorconvert \
@@ -740,10 +741,6 @@ PRODUCT_PACKAGES += \
     unnhal-acc-common \
     unnhal-acc-hvx \
     vendor.samsung.hardware.biometrics.fingerprint@3.0 \
-    vendor.samsung.hardware.camera.device@5.0-impl \
-    vendor.samsung.hardware.camera.device@5.0 \
-    vendor.samsung.hardware.camera.provider@4.0-legacy \
-    vendor.samsung.hardware.camera.provider@4.0 \
     vendor.samsung.hardware.hyper-V2-ndk_platform \
     vendor.samsung.hardware.light-V1-ndk_platform \
     vendor.samsung.hardware.nfc@2.0 \
