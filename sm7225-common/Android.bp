@@ -9577,7 +9577,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.fm@1.0",
+	name: "vendor.qti.hardware.fm@1.0_vendor",
+	stem: "vendor.qti.hardware.fm@1.0",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -9989,7 +9990,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbatterylistener",
+	name: "libbatterylistener_vendor",
+        stem: "libbatterylistener",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -11269,7 +11271,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsecril-client",
+	name: "libsecril-client_vendor",
+	stem: "libsecril-client",
 	owner: "samsung",
 	strip: {
 		none: true,

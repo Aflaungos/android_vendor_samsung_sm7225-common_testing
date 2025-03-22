@@ -645,7 +645,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.cvp@1.0 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
-    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
@@ -665,7 +665,7 @@ PRODUCT_PACKAGES += \
     libadm \
     libaudio_log_utils \
     libaudio_soundtrigger \
-    libbatterylistener \
+    libbatterylistener_vendor \
     libcirrusspkrprot \
     libcomprcapture \
     libdrc \
@@ -725,7 +725,7 @@ PRODUCT_PACKAGES += \
     libril_sem \
     libsdmextension \
     libsec-ril \
-    libsecril-client \
+    libsecril-client_vendor \
     libskeymaster4device \
     libsnap_compute \
     libsnap_compute_wrapper \
