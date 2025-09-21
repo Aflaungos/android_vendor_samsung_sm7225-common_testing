@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm7225-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/sm7225-common/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
@@ -77,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@2.2-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
@@ -256,6 +258,8 @@ PRODUCT_PACKAGES += \
     netmgrd \
     ks \
     qrtr-cfg \
+    audiosphere \
+    argosd \
     shsusrd \
     ssgtzd \
     libEventFinder.camera.samsung \
@@ -321,6 +325,18 @@ PRODUCT_PACKAGES += \
     libsavscmn \
     libq3dtools_esx \
     libI420colorconvert \
+    libGPQTEEC_vendor \
+    libnative-api \
+    init.qti.qcv \
+    libvppclient \
+    libvpphcp \
+    libvpphvx \
+    libvpplibrary \
+    subsystem_ramdump \
+    libQTEEConnector_vendor \
+    vendor.qti.hardware.qteeconnector@1.0 \
+    vendor.qti.hardware.qteeconnector@1.0-service \
+    vendor.qti.hardware.qteeconnector@1.0-impl \
     libc2dcolorconvert \
     libmm-color-convertor \
     audio.primary.lito \
@@ -336,6 +352,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
+    vendor.qti.hardware.scve.objecttracker@1.0 \
+    vendor.qti.hardware.scve.panorama@1.0 \
     vendor.samsung.hardware.bluetooth.a2dp@1.0-impl \
     vendor.samsung.hardware.gnss@2.0-impl-sec \
     vulkan.adreno \
@@ -346,6 +364,7 @@ PRODUCT_PACKAGES += \
     libFacePreProcessing.camera.samsung \
     libFace_Landmark_API.camera.samsung \
     libGPTEE_vendor \
+    libengmode_server \
     libGPreqcancel \
     libGPreqcancel_svc \
     libHandGesture.camera.samsung \
