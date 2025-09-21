@@ -25,6 +25,14 @@ dex_import {
     system_ext_specific: true,
 }
 
+sh_binary {
+    name: "init.qti.qcv",
+    owner: "samsung",
+    src: "proprietary/vendor/bin/init.qti.qcv.sh",
+    filename: "init.qti.qcv.sh",
+    soc_specific: true,
+}
+
 cc_prebuilt_binary {
     name: "argosd",
     owner: "samsung",
