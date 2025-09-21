@@ -11908,10 +11908,13 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
-			srcs: ["proprietary/vendor/lib64/libengmode_server.so"],
-			shared_libs: [ ],
-		},
+	    android_arm64: {
+		srcs: [
+		    "proprietary/vendor/lib64/libengmode_server.so"
+		],
+		shared_libs: [ 
+		],
+	    },
 	},
 	compile_multilib: "64",
 	prefer: true,
