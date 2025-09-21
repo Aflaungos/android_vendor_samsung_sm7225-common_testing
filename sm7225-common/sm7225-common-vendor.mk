@@ -364,7 +364,6 @@ PRODUCT_PACKAGES += \
     libFacePreProcessing.camera.samsung \
     libFace_Landmark_API.camera.samsung \
     libGPTEE_vendor \
-    libengmode_server \
     libGPreqcancel \
     libGPreqcancel_svc \
     libHandGesture.camera.samsung \

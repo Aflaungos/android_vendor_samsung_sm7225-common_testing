@@ -11883,26 +11883,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libengmode_server",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-	    android_arm64: {
-		srcs: [
-		    "proprietary/vendor/lib64/libengmode_server.so"
-		],
-		shared_libs: [ 
-		],
-	    },
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.scve.panorama@1.0",
     owner: "samsung",
     strip: {
