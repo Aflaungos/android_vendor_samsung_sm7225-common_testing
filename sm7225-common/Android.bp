@@ -311,6 +311,41 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_library_shared {
+    name: "librmnetctl",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/librmnetctl.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/librmnetctl.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libvideobeauty_capture.uniplugin@1.0",
 	owner: "samsung",
 	strip: {

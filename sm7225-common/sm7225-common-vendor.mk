@@ -318,6 +318,7 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.qcfa \
     com.qti.feature2.rawhdr \
     com.qti.feature2.rt \
+    librmnetctl \
     com.qti.feature2.serializer \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \
