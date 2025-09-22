@@ -25,6 +25,42 @@ dex_import {
     system_ext_specific: true,
 }
 
+dex_import {
+    name: "uimservicelibrary",
+    owner: "samsung",
+    jars: [
+        "proprietary/product/framework/uimservicelibrary.jar",
+    ],
+    product_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "vendor.samsung.hardware.radio.exclude.qcom.xml",
+    owner: "samsung",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.radio.exclude.qcom.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "vendor.samsung.hardware.radio_manifest_2_30.xml",
+    owner: "samsung",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.radio_manifest_2_30.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "vendor.samsung.hardware.sehradio_manifest_2_30.xml",
+    owner: "samsung",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_30.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
 sh_binary {
     name: "init.qti.qcv",
     owner: "samsung",

@@ -6,6 +6,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm7225-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
+    vendor/samsung/sm7225-common/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
+    vendor/samsung/sm7225-common/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
+    vendor/samsung/sm7225-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/samsung/sm7225-common/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
@@ -317,6 +322,9 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \
     com.qualcomm.qti.ant@1.0 \
+    vendor.samsung.hardware.radio.exclude.qcom.xml \
+    vendor.samsung.hardware.radio_manifest_2_30.xml \
+    vendor.samsung.hardware.sehradio_manifest_2_30.xml \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
@@ -326,6 +334,7 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     libI420colorconvert \
     libGPQTEEC_vendor \
+    uimservicelibrary \
     libnative-api \
     init.qti.qcv \
     libvppclient \
