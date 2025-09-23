@@ -6,6 +6,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm7225-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/modules/rmnet_perf.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rmnet_perf.ko \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/modules/rmnet_shs.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rmnet_shs.ko \
+    vendor/samsung/sm7225-common/proprietary/vendor/lib/modules/modules.load:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.load \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/samsung/sm7225-common/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
