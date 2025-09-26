@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm7225-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
+    vendor/samsung/sm7225-common/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/audconf/OPEN/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Bluetooth_cal.acdb \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/audconf/OPEN/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/General_cal.acdb \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/audconf/OPEN/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Global_cal.acdb \
@@ -574,7 +576,6 @@ PRODUCT_PACKAGES += \
     lib_SoundBooster_ver1050 \
     libscveObjectTracker \
     libscveObjectTracker_stub \
-    libsdedrm \
     libsdm-color \
     libsdm-colormgr-algo \
     libprofileparamstorage \
@@ -662,6 +663,9 @@ PRODUCT_PACKAGES += \
     unihal_cutils@2.15 \
     unihal_main@2.15 \
     unihal_uniplugin@1.0 \
+    libadreno_app_profiles \
+    vendor.qti.qspmhal@1.0 \
+    vendor.qti.qspmhal@1.0-impl \
     unnhal-acc-hta \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
