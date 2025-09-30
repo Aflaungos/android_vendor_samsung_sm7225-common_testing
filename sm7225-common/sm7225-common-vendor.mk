@@ -276,7 +276,6 @@ PRODUCT_PACKAGES += \
     ks \
     qrtr-cfg \
     audiosphere \
-    argosd \
     shsusrd \
     ssgtzd \
     libEventFinder.camera.samsung \
