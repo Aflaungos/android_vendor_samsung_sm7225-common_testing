@@ -561,6 +561,7 @@ PRODUCT_PACKAGES += \
     libqti-iopd-client \
     libqti-iopd \
     libqti-perfd \
+    libqti-perfd-client \
     libqti-util \
     libqti_vndfwk_detect \
     libqtigef \
