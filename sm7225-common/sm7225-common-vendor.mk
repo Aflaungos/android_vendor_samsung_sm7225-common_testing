@@ -370,6 +370,8 @@ PRODUCT_PACKAGES += \
     camera.unihal.default \
     com.qti.chi.override \
     fingerprint.default \
+    fm_helium \
+    libfm-hci \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
