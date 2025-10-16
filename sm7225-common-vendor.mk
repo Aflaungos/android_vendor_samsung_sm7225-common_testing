@@ -237,17 +237,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/samsung/sm7225-common/proprietary/vendor/lib/libsuper_night_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsuper_night_interface.so \
     vendor/samsung/sm7225-common/proprietary/vendor/lib64/libsuper_night_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsuper_night_interface.so \
-    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
-    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5kjn1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.0_lsi_s5kjn1.bin \
-    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.sensormodule.13_sony_imx355_front_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.13_sony_imx355_front_full.bin \
-    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.sensormodule.1_sony_imx355_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.1_sony_imx355_front.bin \
-    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.sensormodule.2_sony_imx355.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.2_sony_imx355.bin \
-    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.sensormodule.4_lsi_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.4_lsi_gc02m1_macro.bin \
-    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.tuned.lsi_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.lsi_gc02m1.bin \
-    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.tuned.lsi_s5kjn1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.lsi_s5kjn1.bin \
-    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.tuned.sony_imx355.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.sony_imx355.bin \
-    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/com.samsung.tuned.sony_imx355_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.sony_imx355_front.bin \
-    vendor/samsung/sm7225-common/proprietary/vendor/lib/camera/ois_mcu_stm32g_fw.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/ois_mcu_stm32g_fw.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5kjn1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.0_lsi_s5kjn1.bin \
     vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/com.samsung.sensormodule.13_sony_imx355_front_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.13_sony_imx355_front_full.bin \
