@@ -765,10 +765,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.0 \
     vendor.qti.qspmhal@1.0-impl \
     vendor.samsung.hardware.biometrics.fingerprint@3.0 \
-    vendor.samsung.hardware.camera.device@5.0-impl \
-    vendor.samsung.hardware.camera.device@5.0 \
-    vendor.samsung.hardware.camera.provider@4.0-legacy \
-    vendor.samsung.hardware.camera.provider@4.0 \
     vendor.samsung.hardware.hyper-V2-ndk_platform \
     vendor.samsung.hardware.light-V1-ndk_platform \
     vendor.samsung.hardware.nfc@2.0 \
