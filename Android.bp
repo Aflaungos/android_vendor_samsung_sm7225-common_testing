@@ -9544,7 +9544,7 @@ cc_prebuilt_library_shared {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libofflinelog.so"],
 			shared_libs: ["libcutils", "liblog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
-		}
+		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libofflinelog.so"],
 			shared_libs: ["libcutils", "liblog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
