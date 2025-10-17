@@ -530,7 +530,6 @@ PRODUCT_PACKAGES += \
     libvideobeauty_interface \
     libxml \
     libclearkeycasplugin \
-    libsns_device_mode_skel \
     libsns_low_lat_stream_skel \
     sensors.grip \
     sensors.ssc \
