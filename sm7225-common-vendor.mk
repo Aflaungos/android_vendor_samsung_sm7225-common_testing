@@ -679,7 +679,6 @@ PRODUCT_PACKAGES += \
     libhexagon_nn_stub \
     libhta \
     libhypervintf \
-    libipanat \
     libipebpsstriping \
     libkeymaster_helper \
     liblearningmodule \
