@@ -949,16 +949,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/com.qti.eeprom.sec2qcconversion.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/com.qti.eeprom.sec2qcconversion.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera",
 	prefer: true,
@@ -1012,16 +1008,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/com.samsung.sensor.gc02m1.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/com.samsung.sensor.gc02m1.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera",
 	prefer: true,
@@ -1035,16 +1027,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/com.samsung.sensor.imx355.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/com.samsung.sensor.imx355.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera",
 	prefer: true,
@@ -1058,16 +1046,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/com.samsung.sensor.imx355_front.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/com.samsung.sensor.imx355_front.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera",
 	prefer: true,
@@ -1151,16 +1135,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/com.samsung.sensor.s5kjn1.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/com.samsung.sensor.s5kjn1.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera",
 	prefer: true,
@@ -1174,16 +1154,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcdsprpc", "libqdMetaData", "libhardware", "libchilog", "libcom.qti.chinodeutils", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcdsprpc", "libqdMetaData", "libhardware", "libchilog", "libcom.qti.chinodeutils", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1197,16 +1173,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.eisv2.so"],
-			shared_libs: ["libcutils", "liblog", "libsync", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.eisv2.so"],
 			shared_libs: ["libcutils", "liblog", "libsync", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1238,16 +1210,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.eisv3.so"],
-			shared_libs: ["libcutils", "liblog", "libsync", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.eisv3.so"],
 			shared_libs: ["libcutils", "liblog", "libsync", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1302,16 +1270,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.hvx.addconstant.so"],
-			shared_libs: ["libchilog", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so"],
 			shared_libs: ["libchilog", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1325,16 +1289,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.hvx.binning.so"],
-			shared_libs: ["libchilog", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so"],
 			shared_libs: ["libchilog", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1348,16 +1308,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.depth.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.depth.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1371,16 +1327,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.dummyrtb.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1394,16 +1346,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.dummysat.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1417,16 +1365,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.eisv2.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcdsprpc", "libqdMetaData", "libhardware", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcdsprpc", "libqdMetaData", "libhardware", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1440,16 +1384,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.eisv3.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcdsprpc", "libqdMetaData", "libhardware", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcdsprpc", "libqdMetaData", "libhardware", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1463,16 +1403,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.fcv.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1486,16 +1422,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.gpu.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1509,16 +1441,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.memcpy.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1532,16 +1460,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.stich.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.stich.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1555,16 +1479,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.node.swregistration.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1578,16 +1498,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.afd.so"],
-			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so"],
 			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1601,16 +1517,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.asd.so"],
-			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so"],
 			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1624,16 +1536,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.hafoverride.so"],
-			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.hafoverride.so"],
 			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1647,16 +1555,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.pdlibsony.so"],
-			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so"],
 			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1670,16 +1574,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so"],
-			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so"],
 			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libz", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1693,16 +1593,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.qti.stats.tracker.so"],
-			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libfastcvopt", "libfastcvdsp_stub", "libscveCommon", "libscveCommon_stub", "libscveObjectTracker", "libscveObjectTracker_stub", "libscveObjectSegmentation", "libscveObjectSegmentation_stub", "libz", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.stats.tracker.so"],
 			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libfastcvopt", "libfastcvdsp_stub", "libscveCommon", "libscveCommon_stub", "libscveObjectTracker", "libscveObjectTracker_stub", "libscveObjectSegmentation", "libscveObjectSegmentation_stub", "libz", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1716,16 +1612,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.capture_bokeh.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libuniplugin", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.capture_bokeh.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libuniplugin", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1739,16 +1631,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.capture_fusion.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libtriplecam_image_optical_zoom", "libuniplugin", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.capture_fusion.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libtriplecam_image_optical_zoom", "libuniplugin", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1762,16 +1650,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.multi_frame_video_hdr.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libarcsoft_multi_frame_video_hdr", "libmpbase", "libOpenCL", "libuniplugin", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.multi_frame_video_hdr.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libarcsoft_multi_frame_video_hdr", "libmpbase", "libOpenCL", "libuniplugin", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1785,16 +1669,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.realtimebokeh.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libuniplugin", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.realtimebokeh.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libuniplugin", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1808,16 +1688,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.remosaic.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.remosaic.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1831,16 +1707,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.smooth_transition.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libtriplecam_video_optical_zoom", "libmpbase", "libOpenCL", "libuniplugin", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.smooth_transition.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libtriplecam_video_optical_zoom", "libmpbase", "libOpenCL", "libuniplugin", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1854,16 +1726,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_capture.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libuniplugin", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_capture.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libuniplugin", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1877,16 +1745,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_preview.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libuniplugin", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_preview.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libuniplugin", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1900,16 +1764,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libuniplugin", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_recording.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libuniplugin", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1923,16 +1783,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so"],
-			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libuniplugin", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_vdis.so"],
 			shared_libs: ["libcamera_metadata", "libchilog", "libcom.qti.chinodeutils", "libcutils", "liblog", "libofflinelog", "libsync", "libuniplugin", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1946,16 +1802,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.ss.stats.aec.so"],
-			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libqcwrappercommon", "libsecnativefeature", "libexpat", "libsensorlistener", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.ss.stats.aec.so"],
 			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libqcwrappercommon", "libsecnativefeature", "libexpat", "libsensorlistener", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1969,16 +1821,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.ss.stats.af.so"],
-			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libqcwrappercommon", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.ss.stats.af.so"],
 			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libqcwrappercommon", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -1992,16 +1840,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.ss.stats.awb.so"],
-			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libqcwrappercommon", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.ss.stats.awb.so"],
 			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libqcwrappercommon", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -2015,16 +1859,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/com.ss.stats.pdlib.so"],
-			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libqcwrappercommon", "libc++", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.ss.stats.pdlib.so"],
 			shared_libs: ["libcutils", "liblog", "libofflinelog", "libsync", "libqcwrappercommon", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -2038,16 +1878,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/camera/components/libdepthmapwrapper.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/libdepthmapwrapper.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
@@ -2061,16 +1897,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.anchorsync.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.anchorsync.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2083,16 +1915,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.demux.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.demux.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2105,16 +1933,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.frameselect.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.frameselect.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2127,16 +1951,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.fusion.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.fusion.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2149,16 +1969,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.generic.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.generic.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2171,16 +1987,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.gs.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.gs.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2193,16 +2005,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.hdr.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.hdr.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2215,16 +2023,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.memcpy.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.memcpy.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2237,16 +2041,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.mfsr.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.mfsr.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2259,16 +2059,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.qcfa.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.qcfa.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2281,16 +2077,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.rawhdr.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.rawhdr.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2303,16 +2095,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.rt.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.rt.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2325,16 +2113,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.serializer.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.serializer.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2347,16 +2131,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.stub.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.stub.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2369,16 +2149,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qti.feature2.swmf.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/com.qti.feature2.swmf.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "com.qti.chi.override", "com.qti.feature2.gs", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libz", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -2620,16 +2396,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/camera.qcom.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcdsprpc", "libqdMetaData", "libhardware", "libcamera_metadata", "libcamxfdengine", "libcamximageformatutils", "libcamxncs", "libcamxstatscore", "libz", "libdl", "libc", "libm", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/camera.qcom.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libcdsprpc", "libqdMetaData", "libhardware", "libcamera_metadata", "libcamxfdengine", "libcamximageformatutils", "libcamxncs", "libcamxstatscore", "libz", "libdl", "libc", "libm", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
@@ -2662,16 +2434,12 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/com.qti.chi.override.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libuniplugin", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.camera.postproc@1.0-service-impl", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libc", "libm", "libdl", ],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/com.qti.chi.override.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libofflinelog", "libsync", "libuniplugin", "libcamera_metadata", "libchilog", "libhardware", "libhidlbase", "libhidltransport", "libqdMetaData", "libutils", "vendor.qti.hardware.camera.postproc@1.0-service-impl", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	relative_install_path: "hw",
 	prefer: true,
