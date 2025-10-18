@@ -247,6 +247,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libspatializerparamstorage",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libspatializerparamstorage.so"],
+			shared_libs: ["libcutils", "liblog", "libutils", "libprofileparamstorage", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "com.qti.hvx.addconstant",
 	owner: "samsung",
 	strip: {
