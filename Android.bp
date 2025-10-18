@@ -3595,24 +3595,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libjpegencoder_sw.unifunc",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libjpegencoder_sw.unifunc.so"],
-			shared_libs: ["liblog", "libcutils", "libcamera_metadata", "unihal_cutils@2.15", "libimgproc_sw.unifunc", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "liblbs_core",
 	owner: "samsung",
 	strip: {
@@ -6041,29 +6023,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudiosaplus_sec",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/soundfx/libaudiosaplus_sec.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libaudioutils", "lib_SoundAlive_play_plus_ver400", "lib_SoundAlive_AlbumArt_ver105", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libaudiosaplus_sec.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libaudioutils", "lib_SoundAlive_play_plus_ver400", "lib_SoundAlive_AlbumArt_ver105", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libbundlewrapper",
 	owner: "samsung",
 	strip: {
@@ -6409,29 +6368,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsamsungSoundbooster_plus",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "lib_SoundBooster_ver1050", "libsecaudioinfo", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libsamsungSoundbooster_plus.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "lib_SoundBooster_ver1050", "libsecaudioinfo", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libshoebox",
 	owner: "samsung",
 	strip: {
@@ -6465,12 +6401,8 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/soundfx/libswdap.so"],
 			shared_libs: ["libaudioutils", "libcutils", "liblog", "libutils", "libprofileparamstorage", "libspatializerparamstorage", "libsecaudiocoreutils", "libc++", "libc", "libm", "libdl", ],
 		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libswdap.so"],
-			shared_libs: ["libaudioutils", "libcutils", "liblog", "libutils", "libprofileparamstorage", "libspatializerparamstorage", "libsecaudiocoreutils", "libc++", "libc", "libm", "libdl", ],
-		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "32",
 	check_elf_files: false,
 	relative_install_path: "soundfx",
 	prefer: true,
@@ -6488,14 +6420,27 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/soundfx/libswspatializer.so"],
 			shared_libs: ["libaudioutils", "libcutils", "liblog", "libutils", "libprofileparamstorage", "libspatializerparamstorage", "spatializer-aidl-V1-cpp", "libsecaudiocoreutils", "libc++", "libc", "libm", "libdl", ],
 		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libswspatializer.so"],
-			shared_libs: ["libaudioutils", "libcutils", "liblog", "libutils", "libprofileparamstorage", "libspatializerparamstorage", "spatializer-aidl-V1-cpp", "libsecaudiocoreutils", "libc++", "libc", "libm", "libdl", ],
-		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "32",
 	check_elf_files: false,
 	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libprofileparamstorage",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libprofileparamstorage.so"],
+			shared_libs: ["libxml2", "libcutils", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
 }
