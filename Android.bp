@@ -9083,7 +9083,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libremosaiclib.so"],
-			shared_libs: ["liblog", "librmsclib1", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
