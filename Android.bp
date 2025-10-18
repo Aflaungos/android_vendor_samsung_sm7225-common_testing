@@ -2250,13 +2250,16 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudcal.so"],
+			shared_libs: ["libutils", "liblog", "libdiag", "libc++", "libc", "libm", "libdl", ],
+		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaudcal.so"],
 			shared_libs: ["libutils", "liblog", "libdiag", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
-	compile_multilib: "64",
-	check_elf_files: false,
+	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
 }
