@@ -320,6 +320,7 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.bluetooth.a2dp@1.0-impl \
     vendor.samsung.hardware.gnss@2.0-impl-sec \
     vulkan.adreno \
+    lib_SoundAlive_3DPosition_ver202 \
     libBeauty_v4.camera.samsung \
     libC2D2 \
     libCB \
