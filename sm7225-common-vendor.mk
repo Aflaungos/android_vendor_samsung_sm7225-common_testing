@@ -530,7 +530,6 @@ PRODUCT_PACKAGES += \
     libvideobeauty_interface \
     libxml \
     libclearkeycasplugin \
-    libsns_low_lat_stream_skel \
     sensors.grip \
     sensors.ssc \
     libasphere \
