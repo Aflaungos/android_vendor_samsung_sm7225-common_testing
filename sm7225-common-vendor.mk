@@ -488,7 +488,6 @@ PRODUCT_PACKAGES += \
     libril_sem \
     librpmb \
     libscaler_hw.unifunc \
-    libscenedetector.uniplugin@1.0 \
     libsdsprpc \
     libsec2qc_conversion \
     libsecaudiocoreutils \
