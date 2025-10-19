@@ -483,7 +483,6 @@ PRODUCT_PACKAGES += \
     libqti-perfd-client \
     libqti-perfd \
     libqti-util \
-    libqti_vndfwk_detect \
     libqtigef \
     libril_sem \
     librpmb \

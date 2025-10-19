@@ -4992,28 +4992,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libqti_vndfwk_detect",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libqti_vndfwk_detect.so"],
-			shared_libs: ["libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libqti_vndfwk_detect.so"],
-			shared_libs: ["libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libqtigef",
 	owner: "samsung",
 	strip: {
