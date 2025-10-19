@@ -5080,24 +5080,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libscaler_hw.unifunc",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libscaler_hw.unifunc.so"],
-			shared_libs: ["libcamera_metadata", "libcutils", "libhardware", "liblog", "libutils", "libui", "unihal_cutils@2.15", "libimgproc_sw.unifunc", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libsdsprpc",
 	owner: "samsung",
 	strip: {
@@ -8718,24 +8700,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libfocuspeaking_interface.so"],
 			shared_libs: ["liblog", "libcutils", "libfocuspeaking", "libuniplugin", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libformatConverter.unifunc",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libformatConverter.unifunc.so"],
-			shared_libs: ["libhardware", "libcamera_metadata", "libcutils", "libutils", "libui", "liblog", "unihal_cutils@2.15", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

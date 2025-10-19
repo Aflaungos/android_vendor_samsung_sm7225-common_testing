@@ -420,7 +420,6 @@ PRODUCT_PACKAGES += \
     libizat_core \
     libjnihelper \
     libjpegQtable_interface \
-    libjpegencoder_sw.unifunc \
     liblbs_core \
     liblivefocus_capture_engine \
     liblivefocus_preview_engine \
@@ -488,7 +487,6 @@ PRODUCT_PACKAGES += \
     libqtigef \
     libril_sem \
     librpmb \
-    libscaler_hw.unifunc \
     libsdsprpc \
     libsec2qc_conversion \
     libsecaudiocoreutils \
@@ -672,7 +670,6 @@ PRODUCT_PACKAGES += \
     libengmode_server \
     libengmode_tlc \
     libfocuspeaking_interface \
-    libformatConverter.unifunc \
     libhdr_tm \
     libhexagon_nn_stub \
     libhta \
