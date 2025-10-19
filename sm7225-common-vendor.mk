@@ -597,7 +597,6 @@ PRODUCT_PACKAGES += \
     libexthwplugin \
     libhdmiedid \
     libhdmipassthru \
-    libheifcapture \
     libhfp \
     libqcodec2_base \
     libqcodec2_basecodec \
