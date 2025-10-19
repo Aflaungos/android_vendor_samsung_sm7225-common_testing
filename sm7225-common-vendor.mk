@@ -325,7 +325,6 @@ PRODUCT_PACKAGES += \
     libCB \
     libDualCamBokehCapture.camera.samsung \
     libEventFinder.camera.samsung \
-    libFacePreProcessing.camera.samsung \
     libFace_Landmark_API.camera.samsung \
     libGPTEE_vendor \
     libGPreqcancel \
@@ -531,7 +530,6 @@ PRODUCT_PACKAGES += \
     libasphere \
     libaudioeffectoffload \
     libaudiopreprocessing \
-    libaudiosaplus_sec \
     libbundlewrapper \
     libdownmix \
     libdynproc \
@@ -547,7 +545,6 @@ PRODUCT_PACKAGES += \
     libqcreverb \
     libqcvirt \
     libreverbwrapper \
-    libsamsungSoundbooster_plus \
     libshoebox \
     libswdap \
     libswspatializer \
@@ -580,7 +577,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.bluetooth@2.0 \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.thermal@1.0 \
-    audio.primary.lito \
     lib_SamsungRec_07010 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
