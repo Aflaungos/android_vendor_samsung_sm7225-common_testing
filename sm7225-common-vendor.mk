@@ -241,7 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/lib64/camera/w_tof_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_tof_calibration.bin
 
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-legacy \
     btaudio_offload_if \
     com.qti.eeprom.sec2qcconversion \
     com.samsung.sensor.gc02m1 \
@@ -616,11 +615,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.audiohalext@1.0 \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-impl \
     com.qti.stats.aec \
     com.qti.stats.af \
     com.qti.stats.awb \
