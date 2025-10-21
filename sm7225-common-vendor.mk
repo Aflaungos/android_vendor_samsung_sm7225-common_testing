@@ -507,7 +507,6 @@ PRODUCT_PACKAGES += \
     libqseed3 \
     libreffeature \
     libremosaiclib \
-    librilutils \
     libsavscmn \
     libscveCommon \
     libscveCommon_stub \
