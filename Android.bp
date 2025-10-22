@@ -5,6 +5,7 @@
 soong_namespace {
 	imports: [
 		"device/samsung/sm7225-common",
+		"vendor/samsung/m23xq",
 		"hardware/qcom-caf/sm8250",
 		"hardware/qcom-caf/wlan",
 		"hardware/samsung",
