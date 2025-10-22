@@ -9151,14 +9151,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "mutualex",
-	owner: "samsung",
-	src: "proprietary/vendor/bin/mutualex",
-	filename: "mutualex",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "netmgrd",
 	owner: "samsung",
 	src: "proprietary/vendor/bin/netmgrd",

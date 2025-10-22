@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/ipacm-diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm-diag.rc \
-    vendor/samsung/sm7225-common/proprietary/vendor/etc/init/mutualex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mutualex.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp.android.hardware.nfc@1.2-service.rc \
     vendor/samsung/sm7225-common/proprietary/vendor/etc/init/pm_proxy_helper.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pm_proxy_helper.rc \
@@ -631,7 +630,6 @@ PRODUCT_PACKAGES += \
     loadalgo \
     loc_launcher \
     lowi-server \
-    mutualex \
     netmgrd \
     npu_launcher \
     pd-mapper \
