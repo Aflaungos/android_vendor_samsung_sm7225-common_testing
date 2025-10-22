@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     btaudio_offload_if \
-    com.qti.camx.chiiqutils \
     com.qti.eisv2 \
     com.qti.eisv3 \
     com.qti.node.depth \
