@@ -290,6 +290,12 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \
     com.qualcomm.qti.ant@1.0 \
+    eglSubDriverAndroid \
+    libEGL_adreno \
+    libGLESv1_CM_adreno \
+    libGLESv2_adreno \
+    libq3dtools_adreno \
+    libq3dtools_esx \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
@@ -303,7 +309,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.samsung.hardware.bluetooth.a2dp@1.0-impl \
     vendor.samsung.hardware.gnss@2.0-impl-sec \
+    vulkan.adreno \
     libBeauty_v4.camera.samsung \
+    libC2D2 \
+    libc2d30_bltlib \
+    libCB \
     libDualCamBokehCapture.camera.samsung \
     libEventFinder.camera.samsung \
     libFacePreProcessing.camera.samsung \
@@ -323,10 +333,13 @@ PRODUCT_PACKAGES += \
     libSceneDetector_v1.camera.samsung \
     libSecureUILib \
     libStDrvInt \
+    libVkLayer_q3dtools \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
     libadiertac \
+    libadreno_app_profiles \
+    libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
     libarcsoft_multi_frame_video_hdr \
@@ -379,6 +392,8 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libgps.utils \
+    libgpudataproducer \
+    libgsl \
     libhand_interaction.uniplugin@1.0 \
     libhandgesture.arcsoft \
     libhigh_dynamic_range_bokeh \
@@ -397,6 +412,8 @@ PRODUCT_PACKAGES += \
     liblivefocus_capture_engine \
     liblivefocus_preview_engine \
     liblivefocus_preview_interface \
+    libllvm-glnext \
+    libllvm-qcom \f
     libloc_api_v02 \
     libloc_core \
     libloc_socket \
@@ -627,6 +644,10 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
+    libdisp-aba \
+    libdisplayqos \
+    libdisplayskuutils \
+    libdpps \
     libdualcam_refocus_video \
     libengmode15 \
     libengmode2lite \
@@ -634,6 +655,7 @@ PRODUCT_PACKAGES += \
     libengmode_server \
     libengmode_tlc \
     libfocuspeaking_interface \
+    libhdr_tm \
     libformatConverter.unifunc \
     libqcodec2_base \
     libqcodec2_basecodec \
@@ -655,6 +677,7 @@ PRODUCT_PACKAGES += \
     libnlnetmgr \
     libofflinelog \
     libqcwrappercommon \
+    libqseed3 \
     libreffeature \
     libremosaiclib \
     librilutils \
@@ -665,6 +688,11 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_stub \
     libscveObjectTracker \
     libscveObjectTracker_stub \
+    libsdm-color \
+    libsdm-colormgr-algo \
+    libsdm-diag \
+    libsdm-disp-vndapis \
+    libsdmextension \
     libsec-ril \
     libsecril-client \
     libsensorlistener \
@@ -679,6 +707,7 @@ PRODUCT_PACKAGES += \
     libsnpe_wrapper \
     libsuper_night_interface \
     libswregistrationalgo \
+    libtinyxml2_1 \
     libtriplecam_image_optical_zoom \
     libuniplugin \
     libvkmanager_vendor \
@@ -693,6 +722,12 @@ PRODUCT_PACKAGES += \
     unnhal-acc-adreno \
     unnhal-acc-common \
     unnhal-acc-hvx \
+    vendor.display.color@1.1 \
+    vendor.display.color@1.2 \
+    vendor.display.color@1.3 \
+    vendor.display.color@1.4 \
+    vendor.display.color@1.5 \
+    vendor.display.postproc@1.0 \
     vendor.display.config@1.0 \
     vendor.display.config@1.1 \
     vendor.display.config@1.10 \
